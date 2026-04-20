@@ -160,6 +160,16 @@
             "description": "Real-time Markdown preview panel. Open a .md file and toggle the panel to see a live-rendered preview alongside the editor. Supports GitHub-flavored Markdown, syntax-highlighted code blocks, relative images, dark mode, scroll synchronization, YAML frontmatter, Mermaid diagrams, and export to HTML. Rendering powered by WKWebView with marked.js + highlight.js.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/NppMarkdownPanel",
             "author": "Jens Wollgarten",
             "homepage": "https://github.com/nea/NppMarkdownPanel"
+        },
+        {
+            "folder-name": "ElasticTabstops",
+            "display-name": "Elastic Tabstops",
+            "version": "1.0.0",
+            "id": "d3bfbbd9af5241e3d5c49dfd0a3da334c3e6ed8bb46f922467bc733e58f6fde7",
+            "repository": "https://github.com/notepad-plus-plus-mac/ElasticTabstops/releases/download/v1.0.0/ElasticTabstops.zip",
+            "description": "Elastic Tabstops — tab-separated text aligns into columns because adjacent lines auto-stretch to match the widest item in each column. No spaces are inserted; only the visual rendering of \\t characters changes.\n\nFeatures:\n- Global mode (uniform column widths across the whole file) and local mode (block-local alignment)\n- Whole-file or selection-only scope\n- Convert Elastic Tabs <-> Spaces with pixel-faithful width preservation\n- Per-extension auto-enable via JSON config\n- Per-file \"Remember enabled files\" persistence across restarts\n- Split-view aware (independent state for primary/secondary view)\n- Large-range warning (>1000 lines) before Space->ET conversion\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/ElasticTabstops",
+            "author": "Justin Dailey, Marius Vasiliu",
+            "homepage": "https://github.com/dail8859/ElasticTabstops"
         }
     ]
 }
