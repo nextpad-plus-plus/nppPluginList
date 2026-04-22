@@ -180,6 +180,16 @@
             "description": "Tree-view navigator for XML documents. Opens a floating panel that renders the active XML document as a hierarchical outline; click any node to jump the editor caret to that position.\n\nFeatures:\n- Compact +/- disclosure markers (no native triangles) matching the Search Results Panel footprint\n- Dense row packing with Cmd+=, Cmd+-, Cmd+0 to zoom the tree font (default 11pt)\n- Hand-rolled UTF-8 XML tokenizer tolerant of ill-formed XML with precise byte offsets per node\n- Filter text field with all-tokens-must-match semantics (order-independent, case-insensitive)\n- Attribute values rendered inline as 'element [attrValue1] [attrValue2]'\n- Six-item right-click menu: Go to Node Start/End, Go to Content Start/End, Select Node/Content\n- Auto-reload on buffer activation, file save, and text changes\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/XmlNavigator",
             "author": "Christian Grasser",
             "homepage": "https://github.com/chcg/XmlNavigator"
+        },
+        {
+            "folder-name": "NppJsonViewer",
+            "display-name": "JSON Viewer",
+            "version": "1.0.0",
+            "id": "d45327442c7547496330fb191acafe23333c813e9800c32c26246f5754ac006d",
+            "repository": "https://github.com/notepad-plus-plus-mac/JSON-Viewer/releases/download/v1.0.0/NppJsonViewer.zip",
+            "description": "Tree-view navigator, formatter, compressor and validator for JSON documents. Docks into the side-panel host (with pop-out to a floating utility window); click any node to jump the editor caret to its line/column.\n\nFeatures:\n- RapidJSON SAX parser with TrackingStream for line/column per token\n- Format / Compress / Sort-by-key with configurable indent (tab / spaces / auto), EOL (CRLF / LF / CR / auto), and single-line-arrays toggle\n- Validate shows the offending position highlighted in the editor\n- Right-click menu: Copy / Copy name / Copy value / Copy path / Expand all / Collapse all\n- Live tree-filter search with auto-expand\n- Live re-parse on buffer edits (debounced)\n- Lazy NSOutlineView data source — sub-300ms render for multi-MB JSON files\n- Cmd+Option+Shift J/M/C/K shortcuts matching the Windows Ctrl+Alt+Shift chord\n- Follow-current-tab / auto-format-on-open / ignore-comments-and-trailing-commas / replace-undefined settings\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/JSON-Viewer",
+            "author": "NPP-JSONViewer team",
+            "homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer"
         }
     ]
 }
