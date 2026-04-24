@@ -9,7 +9,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/nppURLPlugin/releases/download/v1.0.1/nppURLPlugin.zip",
             "description": "URL Encoder and Decoder plug-in for Notepad++ which helps to encode/decode URLs within Notepad++.\n\nHow it works:\n1. Configure settings from menu (Plugins > URL Plugin > URL Plugin Settings).\n2. Select text/URL which you want to encode/decode.\n3. Perform your task via Plugins > URL Plugin > Encode/Decode URL.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/nppURLPlugin",
             "author": "Rajendra Singh",
-            "homepage": "https://github.com/SinghRajenM/nppURLPlugin"
+            "homepage": "https://github.com/SinghRajenM/nppURLPlugin",
+            "dylib-id": "7ced5dd97dce7170efae4a04f44c812432ec796ef33c4026eec25910ea420c19",
+            "dylib-built": "2026-04-06",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "ComparePlus",
@@ -19,7 +22,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/ComparePlus/releases/download/v1.0.1/ComparePlus.zip",
             "description": "Compare two files side by side with full diff highlighting, alignment, and navigation.\n\nFeatures:\n- File and selection comparison with Myers diff algorithm\n- Changed/added/removed/moved line detection with color highlighting\n- Character-level diff highlighting within changed lines\n- Diff block navigation (Next/Previous/First/Last)\n- Vertical scroll synchronization\n- Compare summary statistics\n\nComing soon:\n- Find Unique Lines\n- Diff since last Save\n- Compare file/selection to Clipboard\n- SVN Diff / Git Diff\n- Auto Re-Compare on Change\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/ComparePlus",
             "author": "Pavel Nedev",
-            "homepage": "https://github.com/pnedev/comparePlus"
+            "homepage": "https://github.com/pnedev/comparePlus",
+            "dylib-id": "03d2480f56e14313b5b715f1d10ef6b3f120488f0d74e61e3d45bc5614f3e780",
+            "dylib-built": "2026-04-14",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "DoxyIt",
@@ -29,7 +35,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/DoxyIt/releases/download/v1.0.0/DoxyIt.zip",
             "description": "Doxygen comment generator for Notepad++. Put your cursor on the blank line above a function, press Ctrl+Alt+Shift+D, and DoxyIt inserts a /** ... */ block with @brief, one @param line per argument, @return, and @details — each pre-filled with $(...) jump markers. Tab cycles through the markers; Escape clears them.\n\nFeatures:\n- Comment Function — parse the function signature below the cursor and generate a fully-populated doc block\n- Comment File — insert a file-header block with @file + @brief\n- Active Commenting — type /** above a function and press Enter, and DoxyIt auto-runs Comment Function\n- Jump locations — Tab through $(placeholder) markers in the generated block; Escape clears them\n- Language-specific doc_start/doc_line/doc_end delimiters\n\nSupported languages: C, C++, Java, Python, PHP, JavaScript, C#.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/DoxyIt",
             "author": "Justin Dailey",
-            "homepage": "https://github.com/dail8859/DoxyIt"
+            "homepage": "https://github.com/dail8859/DoxyIt",
+            "dylib-id": "5f9bed98b85883a8c77d069e4f611b1e397027cbdf3f15b24855e169a04eaf23",
+            "dylib-built": "2026-04-14",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "indentbyfold",
@@ -39,7 +48,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/indentbyfold/releases/download/v1.0.1/indentbyfold.zip",
             "description": "IndentByFold uses Scintilla fold points to indent code. Language-independent — works with any language that has fold points.\n\nFeatures:\n- Reindent File command (entire document)\n- Auto-indent on Enter based on fold levels\n- Auto-dedent on closing constructs (e.g. })\n- Language-aware fallback paths for Ruby, HTML, Lisp, Lua, Pascal, XML\n- Skips Python reindent (Python uses significant whitespace)\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/indentbyfold",
             "author": "Ben Bluemel, Frank Fesevur",
-            "homepage": "https://github.com/ffes/indentbyfold"
+            "homepage": "https://github.com/ffes/indentbyfold",
+            "dylib-id": "0b7dfdc06e5c8d86a66fff81b8629f3fca08cfbdd68e915692f7ede3ddde2c49",
+            "dylib-built": "2026-04-14",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "qkNppReverseLines",
@@ -49,7 +61,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/qkNppReverseLines/releases/download/v1.0.1/qkNppReverseLines.zip",
             "description": "Reverses the order of selected lines or all lines in the document.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/qkNppReverseLines",
             "author": "Query Kuma",
-            "homepage": "https://github.com/query-kuma/qkNppReverseLines"
+            "homepage": "https://github.com/query-kuma/qkNppReverseLines",
+            "dylib-id": "dcdf2123a8c55418b4dedfb64c9e88a86c9ba73a38a4de8279a5f4118de8ab2c",
+            "dylib-built": "2026-04-07",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "FoldingLineHider",
@@ -59,7 +74,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/FoldingLineHider/releases/download/v1.0.0/FoldingLineHider.zip",
             "description": "Toggle visibility of fold underlines (green horizontal lines under collapsed code blocks). Also provides Collapse/Uncollapse current fold level commands.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/FoldingLineHider",
             "author": "Leonard Chai",
-            "homepage": "https://github.com/AhDeeAy/FoldingLineHider"
+            "homepage": "https://github.com/AhDeeAy/FoldingLineHider",
+            "dylib-id": "9b6154724c1b2386b86a8f6e43211cef15c5c6dde700498468e5c342ac4ebd92",
+            "dylib-built": "2026-04-16",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "pork2sausage",
@@ -69,7 +87,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/pork2sausage/releases/download/v1.0.0/pork2sausage.zip",
             "description": "Pipe selected text through user-defined external programs. Supports macros, input/output files, async execution. Includes 7 built-in commands (sort, compress, base64) and a Java demo.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/pork2sausage",
             "author": "Don HO",
-            "homepage": "https://github.com/nicedreams/pork2sausage"
+            "homepage": "https://github.com/nicedreams/pork2sausage",
+            "dylib-id": "42c28174f8c6c0069adca9cb93844a89613e7c49648a51bf8e1e229c87dc615f",
+            "dylib-built": "2026-04-12",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "NppPluginOpenHost",
@@ -79,7 +100,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/NppPluginOpenHost/releases/download/v1.0.0/NppPluginOpenHost.zip",
             "description": "Opens the system hosts file (/etc/hosts) in a new Notepad++ tab with a single menu click. Adds a \"Plugins > Open Host file > Open\" menu item. Handy for quickly inspecting or editing host overrides.\n\nNote: /etc/hosts is root-owned on macOS, so saving edits requires elevating privileges separately.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/NppPluginOpenHost",
             "author": "jejemorg",
-            "homepage": "https://github.com/jejemorg/NppPluginOpenHost"
+            "homepage": "https://github.com/jejemorg/NppPluginOpenHost",
+            "dylib-id": "cc425044c01783d2a53e8ffd854dc1e185f854cd3eb3b584c2239dc2e6ef621c",
+            "dylib-built": "2026-04-14",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "SelectToClipboard",
@@ -89,7 +113,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/SelectToClipboard/releases/download/v1.0.0/SelectToClipboard.zip",
             "description": "Auto-copies the current selection to the system clipboard whenever it changes. Enable via Plugins > Selection to Clipboard > Auto copy selection to clipboard.\n\nHeads up: macOS has only one clipboard, so enabling this feature overwrites your Cmd+C clipboard content every time the selection changes. The default is off. Intended for users migrating from PuTTY / xterm workflows who expect drag-select to copy.\n\nFeatures:\n- Automatic copy of stream and rectangular (column) selections\n- Preserves embedded blank lines in the copied block\n- Per-tab selection-change tracking\n- Toggle state persisted across restarts (saved on every toggle, survives force-quit)\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/SelectToClipboard",
             "author": "Jakub Dvorak",
-            "homepage": "https://github.com/KubaDee/SelectToClipboard"
+            "homepage": "https://github.com/KubaDee/SelectToClipboard",
+            "dylib-id": "58185a7b76fcb6202579320b80f52a5293d84592f2a0bf7d61c18cd226b9faca",
+            "dylib-built": "2026-04-14",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "NPP_ExportPlugin",
@@ -99,7 +126,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/NPP_ExportPlugin/releases/download/v1.0.0/NPP_ExportPlugin.zip",
             "description": "Export the current document (or a selection) to RTF or HTML with full syntax highlighting preserved — fonts, colors, bold/italic/underline per Scintilla style. Five menu items:\n\n- Export to RTF (save to file)\n- Export to HTML (save to file)\n- Copy RTF to clipboard\n- Copy HTML to clipboard\n- Copy all formats to clipboard\n\nClipboard commands put the rich flavor (public.rtf / public.html) for rich paste targets (Mail, Word, TextEdit Rich) and the rendered source markup as the plain-text fallback so pasting into a plain-text target (another Notepad++ tab, Terminal) shows the same bytes the file export would write. \"Copy all\" puts both rich flavors plus a concatenated HTML + RTF + plain text blob.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/NPP_ExportPlugin",
             "author": "Christian Grasser",
-            "homepage": "https://github.com/chcg/NPP_ExportPlugin"
+            "homepage": "https://github.com/chcg/NPP_ExportPlugin",
+            "dylib-id": "3d0f1990dcac3a394bb2aec4324019648a70cf0d41e0dd71e9dc6298ee2b1650",
+            "dylib-built": "2026-04-14",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "nppfavorites",
@@ -109,7 +139,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/nppfavorites/releases/download/v1.0.0/nppfavorites.zip",
             "description": "Six favorite-file slots with keyboard shortcuts. Store up to six frequently-opened files and jump to any of them with Ctrl+Opt+1..6. Ctrl+Opt+B opens the JSON config file for editing, and the config is reloaded on every open so edits take effect immediately.\n\nConfig is stored at ~/.notepad++/plugins/Config/NppFavorites.json. First run seeds /etc/hosts and /etc/shells as sample favorites — edit the JSON to point at whatever files you want.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/nppfavorites",
             "author": "Helder Sepulveda",
-            "homepage": "https://github.com/heldersepu/nppfavorites"
+            "homepage": "https://github.com/heldersepu/nppfavorites",
+            "dylib-id": "d6a72d6c6daceb97ab2687c77b54754052e6f1de01db580bb9e3d9c46c9d5859",
+            "dylib-built": "2026-04-15",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "nppAutoDetectIndent",
@@ -119,7 +152,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/nppAutoDetectIndent/releases/download/v1.0.0/nppAutoDetectIndent.zip",
             "description": "Auto-detects whether the current buffer uses tabs or N-space indentation and configures Scintilla so the Tab key inserts the file's actual indent style. No configuration needed — just install, open files, and Tab always does the right thing.\n\nScans up to 5,000 lines per buffer on tab activation, skips ' * ' continuation lines inside /** */ doc blocks (C/C++/C#/Obj-C/Java/PHP/JavaScript), and picks the dominant style by 4:1 majority. Results are cached per file path so switching tabs is instant.\n\nMenu under Plugins → Auto Detect Indention: Disable plugin (toggle, persisted across restarts), Version, Goto website. Disabled-state restores whatever indent settings the host had when Notepad++ launched.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/nppAutoDetectIndent",
             "author": "Mike Tzou (Chocobo1)",
-            "homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
+            "homepage": "https://github.com/Chocobo1/nppAutoDetectIndent",
+            "dylib-id": "a0d92d11ca853731040a070b7f46a81f8118ce65f5e8901ae10f3661db59f9ce",
+            "dylib-built": "2026-04-15",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "selectquotedtext",
@@ -129,7 +165,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/selectquotedtext/releases/download/v1.0.0/selectquotedtext.zip",
             "description": "Select the text inside quotes with a single keystroke (Option+'). Uses Scintilla lexer styles to detect string boundaries in 35+ languages — correctly handles escaped quotes, raw strings, heredocs, and other language-specific string forms. For plain text and unmapped languages, a character-level quote-pair fallback scans the current line for matched quotes containing the cursor. Falls back to selecting the current word when not inside any quotes.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/selectquotedtext",
             "author": "Frank Fesevur",
-            "homepage": "https://github.com/ffes/selectquotedtext"
+            "homepage": "https://github.com/ffes/selectquotedtext",
+            "dylib-id": "66ddce7ca63a5c48e128ed83af621aac89d5f57f2de22212863f6ba09a66c840",
+            "dylib-built": "2026-04-16",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "notepadpp_rpc",
@@ -139,7 +178,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/notepadpp_rpc/releases/download/v1.0.0/notepadpp_rpc.zip",
             "description": "Shows the file you're editing in your Discord profile status — file name, language with icon, file size, line/column, and elapsed time. Supports 30+ language-specific icons, customizable format strings with template variables, idle detection with configurable timeout, and an in-app Options dialog. Requires the Discord desktop app to be running.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/notepadpp_rpc",
             "author": "Zukaritasu",
-            "homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
+            "homepage": "https://github.com/Zukaritasu/notepadpp_rpc",
+            "dylib-id": "06c77a34eca0963a57f53f9a695cbfde5dbdf0e9f8ace17098285f96ed4c5818",
+            "dylib-built": "2026-04-16",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "nppQuickText",
@@ -149,7 +191,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/nppQuickText/releases/download/v1.0.0/nppQuickText.zip",
             "description": "Code snippet expansion engine. Type a trigger word, invoke Replace Snip, and the word expands to a full template with hotspot navigation. Snippets are stored per-language in QuickText.ini keyed by LangType number (3=C++, 22=Python, 58=JavaScript, 255=GLOBAL). Supports Scintilla autocomplete integration, tab-to-spaces conversion, and EOL-aware line breaks.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/nppQuickText",
             "author": "Joao Moreno, TonyM, MVincent",
-            "homepage": "https://sourceforge.net/projects/quicktext/"
+            "homepage": "https://sourceforge.net/projects/quicktext/",
+            "dylib-id": "d8b69cacb991ba9677a72be8bff1d66ae9221fa65d7359ee496b5bbd5017796f",
+            "dylib-built": "2026-04-16",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "NppMarkdownPanel",
@@ -159,7 +204,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/NppMarkdownPanel/releases/download/v1.0.1/NppMarkdownPanel.zip",
             "description": "Real-time Markdown preview panel. Open a .md file and toggle the panel to see a live-rendered preview alongside the editor. Supports GitHub-flavored Markdown, syntax-highlighted code blocks, relative images, dark mode, scroll synchronization, YAML frontmatter, Mermaid diagrams, and export to HTML. Rendering powered by WKWebView with marked.js + highlight.js.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/NppMarkdownPanel",
             "author": "Jens Wollgarten",
-            "homepage": "https://github.com/nea/NppMarkdownPanel"
+            "homepage": "https://github.com/nea/NppMarkdownPanel",
+            "dylib-id": "3c5738b218a66600b5cc6876f50e4276c9dd68e97839a3c4d932ef6a9646ec6a",
+            "dylib-built": "2026-04-22",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "ElasticTabstops",
@@ -169,7 +217,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/ElasticTabstops/releases/download/v1.0.0/ElasticTabstops.zip",
             "description": "Elastic Tabstops — tab-separated text aligns into columns because adjacent lines auto-stretch to match the widest item in each column. No spaces are inserted; only the visual rendering of \\t characters changes.\n\nFeatures:\n- Global mode (uniform column widths across the whole file) and local mode (block-local alignment)\n- Whole-file or selection-only scope\n- Convert Elastic Tabs <-> Spaces with pixel-faithful width preservation\n- Per-extension auto-enable via JSON config\n- Per-file \"Remember enabled files\" persistence across restarts\n- Split-view aware (independent state for primary/secondary view)\n- Large-range warning (>1000 lines) before Space->ET conversion\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/ElasticTabstops",
             "author": "Justin Dailey, Marius Vasiliu",
-            "homepage": "https://github.com/dail8859/ElasticTabstops"
+            "homepage": "https://github.com/dail8859/ElasticTabstops",
+            "dylib-id": "581f7d38750026f7df15a5359b1b1759886f20c3a493100427939edadc19d67a",
+            "dylib-built": "2026-04-20",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "XmlNavigator",
@@ -179,7 +230,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/XmlNavigator/releases/download/v1.0.0/XmlNavigator.zip",
             "description": "Tree-view navigator for XML documents. Opens a floating panel that renders the active XML document as a hierarchical outline; click any node to jump the editor caret to that position.\n\nFeatures:\n- Compact +/- disclosure markers (no native triangles) matching the Search Results Panel footprint\n- Dense row packing with Cmd+=, Cmd+-, Cmd+0 to zoom the tree font (default 11pt)\n- Hand-rolled UTF-8 XML tokenizer tolerant of ill-formed XML with precise byte offsets per node\n- Filter text field with all-tokens-must-match semantics (order-independent, case-insensitive)\n- Attribute values rendered inline as 'element [attrValue1] [attrValue2]'\n- Six-item right-click menu: Go to Node Start/End, Go to Content Start/End, Select Node/Content\n- Auto-reload on buffer activation, file save, and text changes\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/XmlNavigator",
             "author": "Christian Grasser",
-            "homepage": "https://github.com/chcg/XmlNavigator"
+            "homepage": "https://github.com/chcg/XmlNavigator",
+            "dylib-id": "896dc0f69fe79565abace181cc10b4ec83b74f5d3a8cdcdf7135142dc382460c",
+            "dylib-built": "2026-04-20",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "NppJsonViewer",
@@ -189,7 +243,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/JSON-Viewer/releases/download/v1.0.0/NppJsonViewer.zip",
             "description": "Tree-view navigator, formatter, compressor and validator for JSON documents. Docks into the side-panel host (with pop-out to a floating utility window); click any node to jump the editor caret to its line/column.\n\nFeatures:\n- RapidJSON SAX parser with TrackingStream for line/column per token\n- Format / Compress / Sort-by-key with configurable indent (tab / spaces / auto), EOL (CRLF / LF / CR / auto), and single-line-arrays toggle\n- Validate shows the offending position highlighted in the editor\n- Right-click menu: Copy / Copy name / Copy value / Copy path / Expand all / Collapse all\n- Live tree-filter search with auto-expand\n- Live re-parse on buffer edits (debounced)\n- Lazy NSOutlineView data source — sub-300ms render for multi-MB JSON files\n- Cmd+Option+Shift J/M/C/K shortcuts matching the Windows Ctrl+Alt+Shift chord\n- Follow-current-tab / auto-format-on-open / ignore-comments-and-trailing-commas / replace-undefined settings\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/JSON-Viewer",
             "author": "NPP-JSONViewer team",
-            "homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer"
+            "homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
+            "dylib-id": "b0768197892586188ab51f1ec374cc8761bff7a7ea014d71d9f1f5c56478e5cb",
+            "dylib-built": "2026-04-22",
+            "npp-min-version": "1.0.4"
         },
         {
             "folder-name": "NppLLM",
@@ -199,7 +256,10 @@
             "repository": "https://github.com/notepad-plus-plus-mac/NppLLM/releases/download/v1.0.0/NppLLM.zip",
             "description": "Send selected text to any LLM backend and stream the reply back into the editor. Shortcut: Cmd+Shift+O.\n\nSupported backends:\n- OpenAI / Azure OpenAI\n- Anthropic Claude (/v1/messages)\n- Ollama (native /api/generate)\n- LM Studio, vLLM, LocalAI, LiteLLM (OpenAI-compatible)\n- AnythingLLM, Groq, OpenRouter\n- Any other OpenAI-compatible endpoint\n\nFeatures:\n- Streaming reply with main-thread-safe chunk delivery and cancel\n- Wire-compatible NppLLM.ini schema with the Windows NppOpenAI plugin (auto-migrates NppOpenAI.ini on first load)\n- Multi-prompt support via [Prompt:Name] sections in an instructions file (picker sheet at request time)\n- <think>…</think> filtering for reasoning models (toggle via show_reasoning)\n- Keep-my-question toggle (replace vs. append)\n- Chat mode with configurable history window\n- Default INI ships commented-out [API] blocks for 9 backends — just copy one into the live section\n- Dark-mode-aware sheets\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/NppLLM",
             "author": "Richard Stockinger",
-            "homepage": "https://github.com/Krazal/nppopenai"
+            "homepage": "https://github.com/Krazal/nppopenai",
+            "dylib-id": "eddb84b4c4242b35d8b2485b114025c31a2baddb5e2233774f5cfa66bfa1495f",
+            "dylib-built": "2026-04-23",
+            "npp-min-version": "1.0.4"
         }
     ]
 }

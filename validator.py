@@ -18,6 +18,7 @@ Usage:
 import io
 import json
 import os
+import re
 import sys
 import zipfile
 from hashlib import sha256
@@ -46,6 +47,9 @@ def validate_schema(pl):
 
     required = ["folder-name", "display-name", "version", "id",
                  "repository", "description", "author", "homepage"]
+    sha256_re = re.compile(r"^[0-9A-Fa-f]{64}$")
+    date_re   = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+    semver_re = re.compile(r"^\d+(\.\d+){0,3}$")
     for i, plugin in enumerate(pl["npp-plugins"]):
         name = plugin.get("display-name", f"plugin[{i}]")
         for key in required:
@@ -53,6 +57,14 @@ def validate_schema(pl):
                 post_error(f"{name}: missing required field '{key}'")
         if "id" in plugin and len(plugin["id"]) != 64:
             post_error(f"{name}: 'id' must be a 64-character hex SHA-256 hash")
+
+        # Optional Updates-tab fields. Present → must be well-formed.
+        if "dylib-id" in plugin and not sha256_re.match(plugin["dylib-id"]):
+            post_error(f"{name}: 'dylib-id' must be a 64-character hex SHA-256 hash")
+        if "dylib-built" in plugin and not date_re.match(plugin["dylib-built"]):
+            post_error(f"{name}: 'dylib-built' must be YYYY-MM-DD")
+        if "npp-min-version" in plugin and not semver_re.match(plugin["npp-min-version"]):
+            post_error(f"{name}: 'npp-min-version' must look like N[.N[.N[.N]]]")
 
 
 def validate_uniqueness(plugins):
