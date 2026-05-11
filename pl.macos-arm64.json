@@ -286,6 +286,19 @@
             "dylib-id": "52cec3a5c9a40f563fc1b6c372830fc186fa72506a3340f8d2b236906cd96813",
             "dylib-built": "2026-05-11",
             "npp-min-version": "1.0.6"
+        },
+        {
+            "folder-name": "HexEditor",
+            "display-name": "HEX-Editor",
+            "version": "1.1.0",
+            "id": "49a176aa038e46ecdd04994f1d98c570e90f7789c5fbfe2900cdf3ca86844f5f",
+            "repository": "https://github.com/dhadner/NPP_HexEdit/releases/download/v1.1.0/nppHexEditorPlugin-1.1.0.zip",
+            "description": "Native hex editor for Nextpad++. Directly edits any open buffer as a grid of bytes: overwrite + append in hex and ASCII panes, bit-precise editing in binary notation, rectangular (block) selection with Option-drag, multi-GB copy / paste with O(window) RAM use via lazy pasteboard promises, find + find-and-replace (auto-detects ASCII vs hex patterns), go-to-offset (decimal / hex / relative), 8 / 16 / 32 / 64-bit grouping, big- / little-endian display, configurable address width + columns, compare-against-file with red-highlighted diffs, cross-app paste that strips address columns and ASCII glosses from lldb / gdb / xxd / x64dbg / IDA / C-array dumps.\n\nOriginal Windows author: Jens Lorenz (HexEditor v0.9.x, https://sourceforge.net/projects/npp-plugins/files/Hex%20Editor/). Windows GitHub maintainer: Christian Grasser (https://github.com/chcg/NPP_HexEdit). macOS port (fresh native rewrite preserving Windows-faithful UX and clipboard semantics): Dave Hadner.\n\nmacOS Port Author: Dave Hadner\nmacOS Homepage: https://github.com/dhadner/NPP_HexEdit",
+            "author": "Jens Lorenz; macOS port by Dave Hadner",
+            "homepage": "https://github.com/dhadner/NPP_HexEdit",
+            "dylib-id": "5aa9f7be0b9eb4b6f8485ebc7cf1d681b65c4e0163b6c9c1031dd449882952da",
+            "dylib-built": "2026-05-06",
+            "npp-min-version": "1.0.6"
         }
     ]
 }
