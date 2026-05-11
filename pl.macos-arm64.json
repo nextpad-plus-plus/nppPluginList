@@ -278,12 +278,12 @@
             "folder-name": "NppBeads",
             "display-name": "Beads",
             "version": "0.9.1",
-            "id": "ffc7ccb5c4a8f49e39241f7dbb70992fbe608f70cb032178fdf8a74959b69e32",
+            "id": "6256657bc05e77910bd14159d015d89f36d9d92d03504cba4ace96d9143e46e8",
             "repository": "https://github.com/nextpad-plus-plus/NppBeads/releases/download/v0.9.1/NppBeadsv0.9.1.zip",
             "description": "Docked side panel that puts the Beads issue tracker (https://github.com/gastownhall/beads) inside Notepad++. Six surfaces — Dashboard, Issues list, Insights (PageRank / Betweenness / Critical Path / k-core / articulation points / cycles + Project Velocity + Graph Health), force-directed Graph (Heatmap, Critical Path, What-If overlays; Execution-Flow ↔ Dependency-Flow arrow toggle; seven layout presets), Kanban Board with Raw / Effective status modes and drag-to-update, Activity feed with the \"● N new\" status-bar badge.\n\nEditor integration: bead-id detection (bd-XXX pattern) in any open buffer with three commands — Jump to bead under caret (Cmd-Opt-Shift-J), Copy bead id, Create issue from selection (Cmd-Opt-Shift-N).\n\nLive sync via 750ms file watcher on .beads/issues.jsonl + 2s bd list poll. Federation, Jira/GitHub/Linear/Asana bridges, and all data ops go through the bd CLI; install bd separately. Universal arm64+x86_64.\n\nA standalone Beads.app shell (no Notepad++ required) is built from the same source tree; download the DMG from the same GitHub release.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus/NppBeads",
             "author": "Andrey Letov",
             "homepage": "https://github.com/nextpad-plus-plus/NppBeads",
-            "dylib-id": "7accad977a162d7bd87b9b130508d7b79cb2f17b75cb120118cb5ce21dd29ca1",
+            "dylib-id": "52cec3a5c9a40f563fc1b6c372830fc186fa72506a3340f8d2b236906cd96813",
             "dylib-built": "2026-05-11",
             "npp-min-version": "1.0.6"
         }
