@@ -29,13 +29,13 @@
         },
         {
             "folder-name": "DoxyIt",
-            "display-name": "DoxyIt",
+            "display-name": "NppDoxy",
             "version": "1.0.1",
             "id": "3bcd954735af7412f63240ad2a7eb5d4b0c43b6ad79deaef1dc587df05ad6abe",
-            "repository": "https://github.com/nextpad-plus-plus/DoxyIt/releases/download/v1.0.1/DoxyItv1.0.1.zip",
-            "description": "Doxygen comment generator for Notepad++. Put your cursor on the blank line above a function, press Ctrl+Alt+Shift+D, and DoxyIt inserts a /** ... */ block with @brief, one @param line per argument, @return, and @details — each pre-filled with $(...) jump markers. Tab cycles through the markers; Escape clears them.\n\nFeatures:\n- Comment Function — parse the function signature below the cursor and generate a fully-populated doc block\n- Comment File — insert a file-header block with @file + @brief\n- Active Commenting — type /** above a function and press Enter, and DoxyIt auto-runs Comment Function\n- Jump locations — Tab through $(placeholder) markers in the generated block; Escape clears them\n- Language-specific doc_start/doc_line/doc_end delimiters\n\nSupported languages: C, C++, Java, Python, PHP, JavaScript, C#.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus/DoxyIt",
-            "author": "Justin Dailey",
-            "homepage": "https://github.com/dail8859/DoxyIt",
+            "repository": "https://github.com/nextpad-plus-plus/NppDoxy/releases/download/v1.0.1/DoxyItv1.0.1.zip",
+            "description": "Doxygen comment generator for Notepad++. Put your cursor on the blank line above a function, press Ctrl+Alt+Shift+D, and NppDoxy inserts a /** ... */ block with @brief, one @param line per argument, @return, and @details — each pre-filled with $(...) jump markers. Tab cycles through the markers; Escape clears them.\n\nFeatures:\n- Comment Function — parse the function signature below the cursor and generate a fully-populated doc block\n- Comment File — insert a file-header block with @file + @brief\n- Active Commenting — type /** above a function and press Enter, and NppDoxy auto-runs Comment Function\n- Jump locations — Tab through $(placeholder) markers in the generated block; Escape clears them\n- Language-specific doc_start/doc_line/doc_end delimiters\n\nSupported languages: C, C++, Java, Python, PHP, JavaScript, C#.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus/NppDoxy",
+            "author": "Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus/NppDoxy",
             "dylib-id": "7f6a54ace823e37a8aae38e16ed623fd2a1dc3118f5b6273e37d42c97f44e1de",
             "dylib-built": "2026-05-11",
             "npp-min-version": "1.0.6"
