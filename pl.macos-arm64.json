@@ -377,6 +377,19 @@
             "dylib-id": "3dbe8db0ca2be2fabca54a970d341ae56d6d4a32f890f78206a70a862306ebdf",
             "dylib-built": "2026-05-27",
             "npp-min-version": "1.0.7"
+        },
+        {
+            "folder-name": "AnalysePlugin",
+            "display-name": "Analyse Plugin",
+            "version": "1.0.0",
+            "id": "9591a28819581ca5f34b3335696811482f3135971d5595da5db3196e61239cde",
+            "repository": "https://github.com/nextpad-plus-plus/AnalysePlugin/releases/download/v1.0.0/AnalysePluginv1.0.0.zip",
+            "description": "Dockable multi-pattern search for log files and large documents.\n\nFeatures:\n- Define a list of search patterns, each with its own foreground/background color\n- Search types: normal, escaped, regular expression, multiline regex; case and whole-word options\n- Per-pattern group, order#, comment, hide-text and line/word selection\n- Dockable result window (Scintilla) with per-pattern coloring and double-click jump to the source line\n- Matched lines marked with a green bar in the editor's change-history margin\n- Result-window filter, zoom, context menu, and RTF/text export\n- Bidirectional scroll sync between the result window and the editor\n- Save/Load pattern sets as AnalyseDoc XML (wire-compatible with the Windows plugin); auto-persisted across launches\n- Options dialog and Help/About\n\nmacOS port of Matthias Hessling's Analyse Plugin for Notepad++.\nmacOS Author: Andrey Letov\nHomepage: https://github.com/nextpad-plus-plus/AnalysePlugin",
+            "author": "Matthias Hessling",
+            "homepage": "https://github.com/nextpad-plus-plus/AnalysePlugin",
+            "dylib-id": "8a079b454682fea975e0745ae8d9366c54b1544fceaa9cba246716918ec537e4",
+            "dylib-built": "2026-05-29",
+            "npp-min-version": "1.0.7"
         }
     ]
 }

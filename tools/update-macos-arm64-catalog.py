@@ -55,6 +55,7 @@ PLUGINS = [
     ("NppLLM",              "1.0.1", "NppLLM"),
     ("NppAIAssistant",      "1.0.1", "NppAIAssistant"),
     ("NppBeads",            "0.9.1", "NppBeads"),
+    ("AnalysePlugin",       "1.0.0", "AnalysePlugin"),
 ]
 
 
