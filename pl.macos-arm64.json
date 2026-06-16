@@ -134,14 +134,14 @@
         {
             "folder-name": "nppfavorites",
             "display-name": "NppFavorites",
-            "version": "1.0.1",
-            "id": "d375461255c19868c614d647ea07caed8516aa9850be76367f3ea7733c82ca4d",
-            "repository": "https://github.com/nextpad-plus-plus/nppfavorites/releases/download/v1.0.1/nppfavoritesv1.0.1.zip",
+            "version": "1.0.2",
+            "id": "4893d3a237fd0642ca71318d6176408f80ec965ad83e5b196a13a9c5c46d3f50",
+            "repository": "https://github.com/nextpad-plus-plus/nppfavorites/releases/download/v1.0.2/nppfavoritesv1.0.2.zip",
             "description": "Six favorite-file slots with keyboard shortcuts. Store up to six frequently-opened files and jump to any of them with Ctrl+Opt+1..6. Ctrl+Opt+B opens the JSON config file for editing, and the config is reloaded on every open so edits take effect immediately.\n\nConfig is stored at ~/.notepad++/plugins/Config/NppFavorites.json. First run seeds /etc/hosts and /etc/shells as sample favorites — edit the JSON to point at whatever files you want.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus/nppfavorites",
             "author": "Helder Sepulveda",
             "homepage": "https://github.com/heldersepu/nppfavorites",
-            "dylib-id": "3ff7e9fc636c3727c95f5189c220373c1142e6dff462f72fb5028c2a5e8f66bd",
-            "dylib-built": "2026-05-11",
+            "dylib-id": "1b27a31040684a167d16ce2cd495f29e988a2cc81c51080fc43d1ebfc8d82636",
+            "dylib-built": "2026-06-16",
             "npp-min-version": "1.0.6"
         },
         {
