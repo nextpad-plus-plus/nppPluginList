@@ -69,14 +69,14 @@
         {
             "folder-name": "FoldingLineHider",
             "display-name": "Folding Line Hider",
-            "version": "1.0.1",
-            "id": "fb281ac14a4e6986bccc03969ac6f5ada2a9b988d1afe7064ab8b3cddeac5fc4",
-            "repository": "https://github.com/nextpad-plus-plus/FoldingLineHider/releases/download/v1.0.1/FoldingLineHiderv1.0.1.zip",
+            "version": "1.0.2",
+            "id": "243e68067b2779fddb7708a29b223af5ab457060356cdaaf11ed5d45defaf528",
+            "repository": "https://github.com/nextpad-plus-plus/FoldingLineHider/releases/download/v1.0.2/FoldingLineHiderv1.0.2.zip",
             "description": "Toggle visibility of fold underlines (green horizontal lines under collapsed code blocks). Also provides Collapse/Uncollapse current fold level commands.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus/FoldingLineHider",
             "author": "Leonard Chai",
             "homepage": "https://github.com/AhDeeAy/FoldingLineHider",
-            "dylib-id": "3b0021efd427105bf1fdf03f2071039b9769e3dc2ff4eff4b582aad4b09113e1",
-            "dylib-built": "2026-05-11",
+            "dylib-id": "85b55f79635a672264651626e5812a71e5a69ec687c56737fb6cb7af3cc5816a",
+            "dylib-built": "2026-06-16",
             "npp-min-version": "1.0.6"
         },
         {
