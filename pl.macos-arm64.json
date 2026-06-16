@@ -186,14 +186,14 @@
         {
             "folder-name": "nppQuickText",
             "display-name": "QuickText",
-            "version": "1.0.1",
-            "id": "0ad8db3d1b2749eeb69383dd2e1f5e722807c01f0b22e9e46b04712f34ad8f55",
-            "repository": "https://github.com/nextpad-plus-plus/nppQuickText/releases/download/v1.0.1/nppQuickTextv1.0.1.zip",
+            "version": "1.0.2",
+            "id": "3847672b7c8b90e25423981a51128d8d50191739928c6dec64d07276a8b0e2f8",
+            "repository": "https://github.com/nextpad-plus-plus/nppQuickText/releases/download/v1.0.2/nppQuickTextv1.0.2.zip",
             "description": "Code snippet expansion engine. Type a trigger word, invoke Replace Snip, and the word expands to a full template with hotspot navigation. Snippets are stored per-language in QuickText.ini keyed by LangType number (3=C++, 22=Python, 58=JavaScript, 255=GLOBAL). Supports Scintilla autocomplete integration, tab-to-spaces conversion, and EOL-aware line breaks.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus/nppQuickText",
             "author": "Joao Moreno, TonyM, MVincent",
             "homepage": "https://sourceforge.net/projects/quicktext/",
-            "dylib-id": "bea30b51fdf7c8185aad881971090e75f1d0e5d13f513da900437d8562f56280",
-            "dylib-built": "2026-05-11",
+            "dylib-id": "582059f7c1ae5f8973954425ac9086800819d8965481d477a1ebc80503f922b5",
+            "dylib-built": "2026-06-16",
             "npp-min-version": "1.0.6"
         },
         {
