@@ -238,14 +238,14 @@
         {
             "folder-name": "NppJsonViewer",
             "display-name": "JSON Viewer",
-            "version": "1.0.2",
-            "id": "13f6fad21708715c985ad4ca3123767f98a6b548b87d9768241dbf17e0718174",
-            "repository": "https://github.com/nextpad-plus-plus/JSON-Viewer/releases/download/v1.0.2/NppJsonViewerv1.0.2.zip",
+            "version": "1.0.3",
+            "id": "8716feb0a0cc5bf06ecc3fb84bb9452fc81239dc3922cdadc4196048f57d311e",
+            "repository": "https://github.com/nextpad-plus-plus/JSON-Viewer/releases/download/v1.0.3/NppJsonViewerv1.0.3.zip",
             "description": "Tree-view navigator, formatter, compressor and validator for JSON documents. Docks into the side-panel host (with pop-out to a floating utility window); click any node to jump the editor caret to its line/column.\n\nFeatures:\n- RapidJSON SAX parser with TrackingStream for line/column per token\n- Format / Compress / Sort-by-key with configurable indent (tab / spaces / auto), EOL (CRLF / LF / CR / auto), and single-line-arrays toggle\n- Validate shows the offending position highlighted in the editor\n- Right-click menu: Copy / Copy name / Copy value / Copy path / Expand all / Collapse all\n- Live tree-filter search with auto-expand\n- Live re-parse on buffer edits (debounced)\n- Lazy NSOutlineView data source — sub-300ms render for multi-MB JSON files\n- Cmd+Option+Shift J/M/C/K shortcuts matching the Windows Ctrl+Alt+Shift chord\n- Follow-current-tab / auto-format-on-open / ignore-comments-and-trailing-commas / replace-undefined settings\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus/JSON-Viewer",
             "author": "NPP-JSONViewer team",
             "homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
-            "dylib-id": "c60da1ad7eb46e1ad2e79ed52a4a805b094e2ae249a671314ab2029a84aa5166",
-            "dylib-built": "2026-06-05",
+            "dylib-id": "41af8b0d1d706c8c94526f45b8095e250b5f60e7999564df4ef3b8f371c60f2f",
+            "dylib-built": "2026-06-16",
             "npp-min-version": "1.0.6"
         },
         {
