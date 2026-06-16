@@ -173,14 +173,14 @@
         {
             "folder-name": "notepadpp_rpc",
             "display-name": "Discord Rich Presence",
-            "version": "1.0.2",
-            "id": "000ab25b93dce3db52531fe866ee76ae4fc51a761c249d2ab0c243695e9cf06f",
-            "repository": "https://github.com/nextpad-plus-plus/notepadpp_rpc/releases/download/v1.0.2/notepadpp_rpcv1.0.2.zip",
+            "version": "1.0.3",
+            "id": "3d9cc4eb16912850837ce7bb924ba3122e43bfb484fa7e47c92c4840b27691fa",
+            "repository": "https://github.com/nextpad-plus-plus/notepadpp_rpc/releases/download/v1.0.3/notepadpp_rpcv1.0.3.zip",
             "description": "Shows the file you're editing in your Discord profile status — file name, language with icon, file size, line/column, and elapsed time. Supports 30+ language-specific icons, customizable format strings with template variables, idle detection with configurable timeout, and an in-app Options dialog. Requires the Discord desktop app to be running.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus/notepadpp_rpc",
             "author": "Zukaritasu",
             "homepage": "https://github.com/Zukaritasu/notepadpp_rpc",
-            "dylib-id": "a2effa86b92b58a7f3f629a841071eaac8b586de8cacbc1bba12fab90c09de6f",
-            "dylib-built": "2026-06-10",
+            "dylib-id": "d40930c6c50e85e29ff7bd9b245d9e57ef2e6a2ebd0e1661ddf3bcb7423f705e",
+            "dylib-built": "2026-06-16",
             "npp-min-version": "1.0.6"
         },
         {
