@@ -17,14 +17,14 @@
         {
             "folder-name": "ComparePlus",
             "display-name": "ComparePlus",
-            "version": "1.0.4",
-            "id": "de93e4cfc702177d5a9da381b7378e2983ecb2153417337c42e65fe9122013fd",
-            "repository": "https://github.com/nextpad-plus-plus/ComparePlus/releases/download/v1.0.4/ComparePlusv1.0.4.zip",
+            "version": "1.0.5",
+            "id": "f9f33acd422d8f087f322fdbe5296e45ac914c43f4a458c1882c5d0292ea4b68",
+            "repository": "https://github.com/nextpad-plus-plus/ComparePlus/releases/download/v1.0.5/ComparePlusv1.0.5.zip",
             "description": "Compare two files side by side with full diff highlighting, alignment, and navigation.\n\nFeatures:\n- File and selection comparison with Myers diff algorithm\n- Changed/added/removed/moved line detection with color highlighting\n- Character-level diff highlighting within changed lines\n- Diff block navigation (Next/Previous/First/Last)\n- Vertical scroll synchronization\n- Compare summary statistics\n\nComing soon:\n- Find Unique Lines\n- Diff since last Save\n- Compare file/selection to Clipboard\n- SVN Diff / Git Diff\n- Auto Re-Compare on Change\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus/ComparePlus",
             "author": "Pavel Nedev",
             "homepage": "https://github.com/pnedev/comparePlus",
-            "dylib-id": "812eb71364548891dbf969fbbf87a3cd32b8010c4268447cfd00c7a1fcb4af3e",
-            "dylib-built": "2026-06-10",
+            "dylib-id": "e44f040c1b366f74a05b32a5f0cf914af4957746795d9634bffa8a842c4bbf74",
+            "dylib-built": "2026-06-16",
             "npp-min-version": "1.0.7"
         },
         {
