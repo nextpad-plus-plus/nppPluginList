@@ -381,14 +381,14 @@
         {
             "folder-name": "AnalysePlugin",
             "display-name": "Analyse Plugin",
-            "version": "1.0.1",
-            "id": "7eabd859f0759b3ceedf4d6d5b256105d9360ee713dac6900bd7d0ed7ed389e6",
-            "repository": "https://github.com/nextpad-plus-plus/AnalysePlugin/releases/download/v1.0.1/AnalysePluginv1.0.1.zip",
+            "version": "1.0.2",
+            "id": "2414d28ea584881a0bd53cc14b13702f272a9bf014f1f95dca91f46e66c26c05",
+            "repository": "https://github.com/nextpad-plus-plus/AnalysePlugin/releases/download/v1.0.2/AnalysePluginv1.0.2.zip",
             "description": "Dockable multi-pattern search for log files and large documents.\n\nFeatures:\n- Define a list of search patterns, each with its own foreground/background color\n- Search types: normal, escaped, regular expression, multiline regex; case and whole-word options\n- Per-pattern group, order#, comment, hide-text and line/word selection\n- Dockable result window (Scintilla) with per-pattern coloring and double-click jump to the source line\n- Matched lines marked with a green bar in the editor's change-history margin\n- Result-window filter, zoom, context menu, and RTF/text export\n- Bidirectional scroll sync between the result window and the editor\n- Save/Load pattern sets as AnalyseDoc XML (wire-compatible with the Windows plugin); auto-persisted across launches\n- Options dialog and Help/About\n\nmacOS port of Matthias Hessling's Analyse Plugin for Notepad++.\nmacOS Author: Andrey Letov\nHomepage: https://github.com/nextpad-plus-plus/AnalysePlugin",
             "author": "Matthias Hessling",
             "homepage": "https://github.com/nextpad-plus-plus/AnalysePlugin",
-            "dylib-id": "01e819c6eda12c2c47be406cf236be8ccc77d7796235627986fc1f1865cc8de7",
-            "dylib-built": "2026-06-08",
+            "dylib-id": "e19e5d1c4516ea3471b32ece30de625ea3d3584e28fc91f726f1486ca0ecba74",
+            "dylib-built": "2026-06-16",
             "npp-min-version": "1.0.7"
         },
         {
