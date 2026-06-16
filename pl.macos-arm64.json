@@ -108,14 +108,14 @@
         {
             "folder-name": "SelectToClipboard",
             "display-name": "Selection to Clipboard",
-            "version": "1.0.1",
-            "id": "3fb403c3dbf673c9c84335d710b3d05c745a553024bb148ff510d119da236e8a",
-            "repository": "https://github.com/nextpad-plus-plus/SelectToClipboard/releases/download/v1.0.1/SelectToClipboardv1.0.1.zip",
+            "version": "1.0.2",
+            "id": "8a5aedc2f38fa3a12ec95d73c1e16e9caebaae6f80346e97f753060d90e7563c",
+            "repository": "https://github.com/nextpad-plus-plus/SelectToClipboard/releases/download/v1.0.2/SelectToClipboardv1.0.2.zip",
             "description": "Auto-copies the current selection to the system clipboard whenever it changes. Enable via Plugins > Selection to Clipboard > Auto copy selection to clipboard.\n\nHeads up: macOS has only one clipboard, so enabling this feature overwrites your Cmd+C clipboard content every time the selection changes. The default is off. Intended for users migrating from PuTTY / xterm workflows who expect drag-select to copy.\n\nFeatures:\n- Automatic copy of stream and rectangular (column) selections\n- Preserves embedded blank lines in the copied block\n- Per-tab selection-change tracking\n- Toggle state persisted across restarts (saved on every toggle, survives force-quit)\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus/SelectToClipboard",
             "author": "Jakub Dvorak",
             "homepage": "https://github.com/KubaDee/SelectToClipboard",
-            "dylib-id": "eb034f229fdb0e1c4d09cadde428808a0985b0a6126e8745aa99238aaf3c3159",
-            "dylib-built": "2026-05-11",
+            "dylib-id": "c949a5953f769d4ddb37355cc4b259e50c63550312a1a5f36748a14f0f478aa8",
+            "dylib-built": "2026-06-16",
             "npp-min-version": "1.0.6"
         },
         {
