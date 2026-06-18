@@ -368,14 +368,14 @@
         {
             "folder-name": "SessionMgr",
             "display-name": "Session Manager",
-            "version": "1.0.1",
-            "id": "c383acceaf84ec0555051d7bc2059afaa0310f888d235f5a6cfa867e22a52789",
-            "repository": "https://github.com/nextpad-plus-plus/SessionMgr/releases/download/v1.0.1/SessionMgrv1.0.1.zip",
-            "description": "Manage multiple named sessions of open files.\n\nFeatures:\n- Save the current set of tabs as a named session\n- Switch between any number of sessions from the Sessions dialog\n- Filter (with wildcards) and sort (alphabetical or by last-used date)\n- Mark up to 20 sessions as favorites for one-click loading from the Plugins menu\n- New from empty, copy of current, or copy of selected session\n- Rename / delete\n- Auto-save the current session on file save, language change, or bookmark/fold margin click\n- Auto-load the last session on startup\n- Backup settings + all session files to a backup/ folder on each launch\n- P2P API for other plugins (NPPM_MSGTOPLUGIN)\n\nSessions are stored as Apple property lists at ~/.nextpad++/plugins/Config/SessionMgr/sessions/.\n\nmacOS port of Michael Foster's SessionMgr plugin for Notepad++.\nmacOS Author: Andrey Letov\nHomepage: https://github.com/nextpad-plus-plus/SessionMgr",
+            "version": "1.0.2",
+            "id": "21ddffa092a73eda7cef337402803937d26f7a5fda82e09b33c98010c10667f3",
+            "repository": "https://github.com/nextpad-plus-plus/SessionMgr/releases/download/v1.0.2/SessionMgrv1.0.2.zip",
+            "description": "Manage multiple named sessions of open files.\n\nFeatures:\n- Save the current set of tabs as a named session\n- Switch between any number of sessions from the Sessions dialog\n- Filter (with wildcards) and sort (alphabetical or by last-used date)\n- Mark up to 20 sessions as favorites for one-click loading from the Plugins menu\n- New from empty, copy of current, or copy of selected session\n- Rename / delete\n- Auto-save the current session on file save, language change, or bookmark/fold margin click\n- Auto-load the last session on startup\n- Backup settings + all session files to a backup/ folder on each launch\n- P2P API for other plugins (NPPM_MSGTOPLUGIN)\n\nSessions are stored as Apple property lists in the plugin's configuration folder.\n\nmacOS port of Michael Foster's SessionMgr plugin for Notepad++.\nmacOS Author: Andrey Letov\nHomepage: https://github.com/nextpad-plus-plus/SessionMgr",
             "author": "Michael Foster",
             "homepage": "https://github.com/nextpad-plus-plus/SessionMgr",
-            "dylib-id": "4f1cc2a4a48f1b69a4b18636533670a314dc61bfbeb853fdb2123f09ad1c0964",
-            "dylib-built": "2026-06-16",
+            "dylib-id": "8dc3c11e22dfc44acb3b03cafaffcfdb00f99daba172a2c550eaafe66fa87426",
+            "dylib-built": "2026-06-18",
             "npp-min-version": "1.0.7"
         },
         {
