@@ -2,6 +2,19 @@
     "version": "0.1.0",
     "npp-plugins": [
         {
+            "folder-name": "NppFTP",
+            "display-name": "NppFTP",
+            "version": "1.0.0",
+            "id": "474159472936e2381f5597c434e00158e63fa7ef4461764f66f5baf4ec11263a",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/NppFTP.macos/releases/download/v1.0.0/NppFTPv1.0.0.zip",
+            "description": "FTP, FTPS, FTPES and SFTP client for Nextpad++.\n\nFeatures:\n- Dockable panel with connection profiles, a remote file tree, and a transfer queue\n- Download, upload, rename, delete, set permissions, create files/directories\n- Download && open: fetch a remote file and open it in the editor\n- Edit on server: saving a file you opened from the server auto-uploads it back\n- Download a whole folder recursively to a chosen local folder\n- Copy / Cut / Paste files and folders on the server\n- Separate \"NppFTP - Output\" log panel\n\nUniversal binary (Apple Silicon + Intel).\n\nmacOS port of Harry's NppFTP plugin for Notepad++.\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/NppFTP.macos",
+            "author": "Harry",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/NppFTP.macos",
+            "dylib-id": "6cbfbe755266d8e50b422ea47788e780386fda0288f93d37b38058f04dc288e5",
+            "dylib-built": "2026-06-18",
+            "npp-min-version": "1.0.8"
+        },
+        {
             "folder-name": "nppURLPlugin",
             "display-name": "URL Encode/Decode Plugin",
             "version": "1.0.3",
