@@ -5,13 +5,13 @@
             "folder-name": "NextZip",
             "display-name": "NextZip",
             "version": "1.0.0",
-            "id": "d75a1074c5b5de34b891d49472a9914b05c99d512692d86188233633d45b4d04",
+            "id": "52279042b02362b41a905d53050b3afb541938beb8ba91c2b09894e9b8c25d64",
             "repository": "https://github.com/nextpad-plus-plus-plugins/NextZip.macos/releases/download/v1.0.0/NextZipv1.0.0.zip",
             "description": "Archive manager for Nextpad++, powered by the in-process 7-Zip engine.\n\nFeatures:\n- Dockable two-pane panel: filesystem browser on top, archive contents below\n- Opens 7z, zip, tar, gz, bz2, xz, RAR / RAR5 and more (RAR is extraction-only)\n- Transparent nested-archive descent (e.g. site.tar.gz)\n- Open a file from inside an archive in the editor; saving writes it back into the archive\n- Create archives with a full Add-to-Archive dialog (format, level, method, dictionary, solid, threads, encryption)\n- Extract with path mode, overwrite mode and eliminate-root options\n- Password-protected archives: prompts for a password (with Show Password) when extracting or opening\n- Test archives and compute CRC32 / MD5 / SHA-1 / SHA-256 / SHA-384 / SHA-512 checksums\n\nUniversal binary (Apple Silicon + Intel). Bundles the 7-Zip 7z.so engine.\n\nEngine: 7-Zip by Igor Pavlov (LGPL + unRAR restriction). Plugin: GPL.\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/NextZip.macos",
             "author": "Andrey Letov",
             "homepage": "https://github.com/nextpad-plus-plus-plugins/NextZip.macos",
-            "dylib-id": "302da64671ea1abda0ce20db7d023d3c1166a3d77c8b4512effae91738e4f1b0",
-            "dylib-built": "2026-06-19",
+            "dylib-id": "bb32923ed1f336c538c7f7686ed89abb64d7af4554df469a45c57ed5aaf731d0",
+            "dylib-built": "2026-06-24",
             "npp-min-version": "1.0.8"
         },
         {
