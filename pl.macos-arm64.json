@@ -585,6 +585,19 @@
             "dylib-id": "7537d7296b6a95aedb4bb97b7c5306906fcc1adc10c09d0affe8510aaa4e8754",
             "dylib-built": "2026-07-01",
             "npp-min-version": "1.0.8"
+        },
+        {
+            "folder-name": "CommentToggler",
+            "display-name": "Comment Toggler",
+            "version": "1.0.0",
+            "id": "15eabbb31eab88e939a9e89f29df9ad42eeae77803727315b61f2e5b9077ce25",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/CommentToggler.macos/releases/download/v1.0.0/CommentTogglerv1.0.0.zip",
+            "description": "Toggles line and block comments on the current selection(s), auto-detecting the comment syntax for the current language.\n\nFeatures:\n- Single-line, multi-line (indent-aware) and block comment modes\n- Multi-selection aware\n- Per-language comment tokens for built-in languages\n- User Defined Languages: comment tokens resolved from the UDL by file extension\n- Toolbar button\n\nUniversal binary (Apple Silicon + Intel).\n\nOriginal Windows plugin by ScienceDiscoverer (GPL v3).\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/CommentToggler.macos",
+            "author": "ScienceDiscoverer; macOS port by Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/CommentToggler.macos",
+            "dylib-id": "ca5a065878fb68fc2945ca11bf1556638d1a24b2a9c2492b0463d53c13cd9071",
+            "dylib-built": "2026-07-01",
+            "npp-min-version": "1.0.8"
         }
     ]
 }
