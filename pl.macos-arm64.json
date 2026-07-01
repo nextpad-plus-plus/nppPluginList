@@ -598,6 +598,19 @@
             "dylib-id": "ca5a065878fb68fc2945ca11bf1556638d1a24b2a9c2492b0463d53c13cd9071",
             "dylib-built": "2026-07-01",
             "npp-min-version": "1.0.8"
+        },
+        {
+            "folder-name": "NppStripIpAndHost",
+            "display-name": "Strip IP and Host",
+            "version": "1.0.0",
+            "id": "1ac54f889ea2f6701bc29bbeade7e05f1c2baf88b87f171c0395184c48bb6a1a",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/NppStripIpAndHost.macos/releases/download/v1.0.0/NppStripIpAndHostv1.0.0.zip",
+            "description": "Sanitizes text, server logs and configs by replacing IPv4 and IPv6 addresses and hostnames with placeholder strings.\n\nFeatures:\n- Strip IPs and hostnames across the active document\n- Per-document Undo of the last strip\n- Configurable placeholders and toggles (Replace Settings)\n\nUniversal binary (Apple Silicon + Intel).\n\nOriginal Windows plugin by larreblarsson (GPL v2).\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/NppStripIpAndHost.macos",
+            "author": "larreblarsson; macOS port by Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/NppStripIpAndHost.macos",
+            "dylib-id": "e3f607a17e5366645bd2be9870b75d7981937d62a065203972f89c4587d8caac",
+            "dylib-built": "2026-07-01",
+            "npp-min-version": "1.0.8"
         }
     ]
 }
