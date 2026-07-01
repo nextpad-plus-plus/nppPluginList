@@ -494,6 +494,19 @@
             "dylib-id": "e145b5c6e76ef5e3013fe07f325b3b771ff8c674573872d9c4946a625e68022c",
             "dylib-built": "2026-07-01",
             "npp-min-version": "1.0.8"
+        },
+        {
+            "folder-name": "selectNLaunch",
+            "display-name": "Select 'N' Launch",
+            "version": "1.0.0",
+            "id": "51520b0c9a63d3c08177b10c90ba7f4dd6b55bcf87ab8a5d2cd7f7d419f2cf54",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/selectNLaunch.macos/releases/download/v1.0.0/selectNLaunchv1.0.0.zip",
+            "description": "Convert the selected text to a file and launch it on the fly — define the file type by extension and let the OS open it.\n\nFeatures:\n- Send the selection to a temp file and open it with its associated app\n- User-defined launch commands, each with its own extension\n- Optional Base64 decode of the selection before launching\n- Settings dialog and editable user-command list\n\nUniversal binary (Apple Silicon + Intel).\n\nOriginal plugin by Don Ho (GPL v2).\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/selectNLaunch.macos",
+            "author": "Don Ho; macOS port by Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/selectNLaunch.macos",
+            "dylib-id": "9bff9686a63fc9fe7d79e3a8b408d80c9ee3ba0636d8aa9499e2a576005be4f6",
+            "dylib-built": "2026-07-01",
+            "npp-min-version": "1.0.8"
         }
     ]
 }
