@@ -611,6 +611,19 @@
             "dylib-id": "e3f607a17e5366645bd2be9870b75d7981937d62a065203972f89c4587d8caac",
             "dylib-built": "2026-07-01",
             "npp-min-version": "1.0.8"
+        },
+        {
+            "folder-name": "EmojiDescription",
+            "display-name": "Emoji Description",
+            "version": "1.0.0",
+            "id": "404c43e6fdfd458b3fbad4aa8504d43e36f32ed97008bdba3662702b6e1af239",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/EmojiDescription.macos/releases/download/v1.0.0/EmojiDescriptionv1.0.0.zip",
+            "description": "Shows detailed character-encoding information for the character under the cursor, streamed live into the status bar.\n\nReports for any character (including emoji and astral code points):\n- Unicode code point (U+XXXX)\n- Decimal and hexadecimal values\n- HTML entity (&#XXXX;)\n- UTF-8 byte sequence\n\nToggle the live readout via Show Character Info.\n\nUniversal binary (Apple Silicon + Intel).\n\nOriginal Windows plugin by Ruberoid (GPL v2).\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/EmojiDescription.macos",
+            "author": "Ruberoid; macOS port by Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/EmojiDescription.macos",
+            "dylib-id": "cf97d35249abce0b262220f507a5877e1f5a42d60272788124b3b9444556566e",
+            "dylib-built": "2026-07-01",
+            "npp-min-version": "1.0.8"
         }
     ]
 }
