@@ -455,6 +455,32 @@
             "dylib-id": "9e524bcff3fb669f3976da62f402286af40c8f2ab781af020352e89750c47a19",
             "dylib-built": "2026-06-21",
             "npp-min-version": "1.0.8"
+        },
+        {
+            "folder-name": "BracketsCheck",
+            "display-name": "Brackets Check",
+            "version": "1.0.0",
+            "id": "a4f07063291c74cd310d42683394625caa355e4e6c52982c66a7963cd7c6c3dd",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/BracketsCheck.macos/releases/download/v1.0.0/BracketsCheckv1.0.0.zip",
+            "description": "Checks whether brackets are balanced in the current document or selection.\n\nFeatures:\n- Checks round (), square [], curly {} and angle <> brackets\n- \"Check Brackets: All text\" and \"Check Brackets: Selected text\" commands\n- Per-type toggles to include or ignore each bracket kind, persisted across launches\n- Reports the row and character of the first unbalanced bracket\n\nUniversal binary (Apple Silicon + Intel).\n\nOriginal plugin by niccord.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/BracketsCheck.macos",
+            "author": "niccord; macOS port by Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/BracketsCheck.macos",
+            "dylib-id": "7b32d8976ffbd5398bf04d8effe90c80cf8b402497032fa92ef07365fbca9970",
+            "dylib-built": "2026-06-30",
+            "npp-min-version": "1.0.8"
+        },
+        {
+            "folder-name": "HTMLTag",
+            "display-name": "HTML Tag",
+            "version": "1.0.0",
+            "id": "bd12ccb70352511d2acefbf626566b544ac881a39da1df737620f01b65d0b332",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/HTMLTag.macos/releases/download/v1.0.0/HTMLTagv1.0.0.zip",
+            "description": "HTML and XML tag matching, selection and renaming, plus HTML-entity and Unicode encode/decode.\n\nFeatures:\n- Jump to the matching open/close tag; select tag contents or the whole tag\n- Encode and decode HTML entities and Unicode escapes\n- Live entity decode and entity-name autocompletion\n- Toolbar button\n\nUniversal binary (Apple Silicon + Intel).\n\nOriginal plugin by Martijn Coppoolse (vor0nwe), maintained by Robert Di Pardo.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/HTMLTag.macos",
+            "author": "Martijn Coppoolse (vor0nwe), Robert Di Pardo; macOS port by Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/HTMLTag.macos",
+            "dylib-id": "dd84043780efd68adec83b01f52d4a3967f2d1c3628fa74cd1529da326b3e95c",
+            "dylib-built": "2026-06-30",
+            "npp-min-version": "1.0.8"
         }
     ]
 }
