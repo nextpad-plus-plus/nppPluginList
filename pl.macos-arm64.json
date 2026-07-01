@@ -507,6 +507,19 @@
             "dylib-id": "9bff9686a63fc9fe7d79e3a8b408d80c9ee3ba0636d8aa9499e2a576005be4f6",
             "dylib-built": "2026-07-01",
             "npp-min-version": "1.0.8"
+        },
+        {
+            "folder-name": "SecurePad",
+            "display-name": "SecurePad",
+            "version": "1.0.0",
+            "id": "9f2c68906ced750834f1071271e13f89589cb7f292fe062deabb426bbe47e3c5",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/SecurePad.macos/releases/download/v1.0.0/SecurePadv1.0.0.zip",
+            "description": "Encrypt or decrypt the current document or selection in place, using a key of your choice (Blowfish cipher).\n\nFeatures:\n- Encrypt / decrypt the whole document\n- Encrypt / decrypt the current selection\n- Blowfish cipher, byte-compatible with the Windows plugin\n- Password (key) dialog with confirmation\n\nUniversal binary (Apple Silicon + Intel).\n\nOriginal plugin by Dominic Tobias (MIT).\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/SecurePad.macos",
+            "author": "Dominic Tobias; macOS port by Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/SecurePad.macos",
+            "dylib-id": "4058a8bf1598f13bd15da0d0a5510cc8371d13ae8c4056e4b26f86403b5fa2d6",
+            "dylib-built": "2026-07-01",
+            "npp-min-version": "1.0.8"
         }
     ]
 }
