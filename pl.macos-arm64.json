@@ -637,6 +637,19 @@
             "dylib-id": "65ef0acfabf473df260919cce04a27ea96525e0085baba54277837976eddf0ab",
             "dylib-built": "2026-07-01",
             "npp-min-version": "1.0.8"
+        },
+        {
+            "folder-name": "WakaTime",
+            "display-name": "WakaTime",
+            "version": "1.0.0",
+            "id": "cb331c73be77fcdc5176e8622b62163eb4b1a1ec2ba1a030461342f5e24790ff",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/WakaTime.macos/releases/download/v1.0.0/WakaTimev1.0.0.zip",
+            "description": "Automatic coding-time tracker. Records \"heartbeats\" as you edit and sends them to WakaTime via the official wakatime-cli helper, keeping your dashboards at wakatime.com up to date.\n\nSetup:\n1. Install the helper:  brew install wakatime-cli\n2. Get your API key from https://wakatime.com/settings/api-key\n3. Enter it in Plugins > WakaTime > Settings.\n\nThe API key is stored in ~/.wakatime.cfg (0600) and read by wakatime-cli; it is never passed on the command line. Tracks upstream notepadpp-wakatime 5.1.2.\n\nUniversal binary (Apple Silicon + Intel).\n\nOriginal Windows plugin by Alan Hamlett / WakaTime (BSD-3-Clause).\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/WakaTime.macos",
+            "author": "Alan Hamlett / WakaTime; macOS port by Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/WakaTime.macos",
+            "dylib-id": "79dca41f08a777882741e00b6044ba8168662a950bf5088b59c05e4b2dc85690",
+            "dylib-built": "2026-07-01",
+            "npp-min-version": "1.0.8"
         }
     ]
 }
