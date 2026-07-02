@@ -689,6 +689,19 @@
             "dylib-id": "f86941e19a2c9fbc8e0f2c1bd7987251c2430e6fc6343920e6f9b4ab9c12dff0",
             "dylib-built": "2026-07-02",
             "npp-min-version": "1.0.8"
+        },
+        {
+            "folder-name": "Compose",
+            "display-name": "Compose",
+            "version": "1.0.0",
+            "id": "c6e6935ed3a0016e98301af953e38c35e0ccec168d45ca29c357c66e8aa5096c",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/Compose.macos/releases/download/v1.0.0/Composev1.0.0.zip",
+            "description": "A compose key for entering characters that aren't on your keyboard. Press your Compose key, then type a short mnemonic to insert a special character — e.g. 'a → á, AE → Æ, -L → £, &copy; → ©. All HTML named character entities, numeric (&#…; / &#x…;) forms, raw-hex Unicode code points and ~30 combining marks are supported, plus your own user-defined sequences (also usable as text snippets).\n\nSet your Compose key from Plugins > Compose > Compose key… (good macOS choices: F13-F19, the right Option key, or a combination such as Ctrl+Option+P).\n\nNote: composing works while the editor pane has focus — not inside Find/Replace or other dialogs (a macOS platform constraint).\n\nUniversal binary (Apple Silicon + Intel).\n\nOriginal Windows plugin by Randall Joseph Fellmy (coises.com), GNU GPL v3+.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/Compose.macos",
+            "author": "Randall Joseph Fellmy; macOS port by Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/Compose.macos",
+            "dylib-id": "5d63dc70f135f3ca5da971adb9928b83d3bd0cd5ce3976d8a0792175d94c27f8",
+            "dylib-built": "2026-07-02",
+            "npp-min-version": "1.0.8"
         }
     ]
 }
