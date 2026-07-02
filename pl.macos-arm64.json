@@ -650,6 +650,19 @@
             "dylib-id": "79dca41f08a777882741e00b6044ba8168662a950bf5088b59c05e4b2dc85690",
             "dylib-built": "2026-07-01",
             "npp-min-version": "1.0.8"
+        },
+        {
+            "folder-name": "CodeAlignmentNpp",
+            "display-name": "Code Alignment",
+            "version": "1.0.0",
+            "id": "661b7f4cf5cbc4dbccd3efb55c21d2b12b1aac30ad32361d25bf055d295d7cf9",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/CodeAlignmentNpp.macos/releases/download/v1.0.0/CodeAlignmentNppv1.0.0.zip",
+            "description": "Vertically aligns selected lines on a delimiter (=, ==, m_, \", ., space, or any custom string/regex) by inserting spaces, expanding to the surrounding block or XML scope. Tab- and Unicode-aware column alignment.\n\nCustom regex uses ICU syntax (named groups (?<x>...), look-behind, \\p{...} Unicode classes) and is Unicode-correct.\n\nNote: the align commands have no default shortcuts on macOS - assign your own in Settings > Shortcut Mapper > Plugin commands.\n\nUniversal binary (Apple Silicon + Intel).\n\nOriginal Windows plugin by Chris McGrath (2011).\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/CodeAlignmentNpp.macos",
+            "author": "Chris McGrath; macOS port by Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/CodeAlignmentNpp.macos",
+            "dylib-id": "70faf4226942fd6982dcf6bd785f142e72478bf3d5f37334cc2ae7010e7522b0",
+            "dylib-built": "2026-07-01",
+            "npp-min-version": "1.0.8"
         }
     ]
 }
