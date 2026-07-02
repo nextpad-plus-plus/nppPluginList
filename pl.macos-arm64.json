@@ -676,6 +676,19 @@
             "dylib-id": "9679b3603fbc4777c8f822816e32ae082915838750404fd0901d6b4ef97124be",
             "dylib-built": "2026-07-02",
             "npp-min-version": "1.0.8"
+        },
+        {
+            "folder-name": "CustomLineNumbers",
+            "display-name": "Custom Line Numbers",
+            "version": "1.0.0",
+            "id": "b1a03897c23342acbd1f8c70f144d31f7c3b947fda429afe72261f0b503ba248",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/CustomLineNumbers.macos/releases/download/v1.0.0/CustomLineNumbersv1.0.0.zip",
+            "description": "Display Notepad++'s line numbers in a custom format, shown in an extra editor margin: hexadecimal, relative (Vim-style distance from the caret line), or decimal with a custom start — plus a configurable starting number and optional margin text colour / background / bold. The active mode is check-marked and persists between sessions.\n\nBecause the host owns the built-in line-number margin, the plugin renders in its own extra margin next to it; hide the host's line numbers in Preferences to see only the custom format.\n\nUniversal binary (Apple Silicon + Intel).\n\nNote: no default shortcuts on macOS - assign your own in Settings > Shortcut Mapper > Plugin commands.\n\nOriginal Windows plugin by Andreas Heim (2018-2024), GPL v3.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/CustomLineNumbers.macos",
+            "author": "Andreas Heim; macOS port by Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/CustomLineNumbers.macos",
+            "dylib-id": "f86941e19a2c9fbc8e0f2c1bd7987251c2430e6fc6343920e6f9b4ab9c12dff0",
+            "dylib-built": "2026-07-02",
+            "npp-min-version": "1.0.8"
         }
     ]
 }
