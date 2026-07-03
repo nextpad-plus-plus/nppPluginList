@@ -702,6 +702,19 @@
             "dylib-id": "5d63dc70f135f3ca5da971adb9928b83d3bd0cd5ce3976d8a0792175d94c27f8",
             "dylib-built": "2026-07-02",
             "npp-min-version": "1.0.8"
+        },
+        {
+            "folder-name": "CollectionInterface",
+            "display-name": "Collection Interface (Themes)",
+            "version": "1.0.0",
+            "id": "16a848d63f1809941ab476540c0c896395fd359fed48c6b501cdab1d9c62c045",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/CollectionInterface.macos/releases/download/v1.0.0/CollectionInterfacev1.0.0.zip",
+            "description": "Install themes from the official online Notepad++ Themes Collection (github.com/notepad-plus-plus/nppThemes) directly into Nextpad++.\n\nOpen Plugins > CollectionInterface > Themes: Download, select one or more community themes, and click Download; each installs into your themes folder. Quit and reopen Nextpad++, then choose the theme in Settings > Style Configurator.\n\nThemes-only on macOS: the Windows plugin also installs User Defined Languages, AutoCompletion and FunctionList files, but those are already provided by Nextpad++'s built-in UDL Admin, so this port ships only the Themes installer to avoid duplicating (and conflicting with) that feature.\n\nUniversal binary (Apple Silicon + Intel), macOS 11+.\n\nOriginal Windows plugin by Peter C. Jones (pryrt), GPL v3.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/CollectionInterface.macos",
+            "author": "Peter C. Jones; macOS port by Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/CollectionInterface.macos",
+            "dylib-id": "ac0acfc5de3ea7b8c39bc09b1875c69d8d01768884237b05565cde51cdf98739",
+            "dylib-built": "2026-07-03",
+            "npp-min-version": "1.0.8"
         }
     ]
 }
