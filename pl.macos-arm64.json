@@ -720,12 +720,12 @@
             "folder-name": "SmartHighlightNPP",
             "display-name": "SmartHighlight (Cisco Collab)",
             "version": "1.0.5",
-            "id": "8ec79ac6a188f5a925386d387bf0b0be8f72184ec1768bd1977f399e18745b33",
+            "id": "968f643d025c17f13163d9f546bb17a87a8d9de3cd09ff722a49a2877b3f1198",
             "repository": "https://github.com/nextpad-plus-plus-plugins/SmartHighlightNPP.macos/releases/download/v1.0.5/SmartHighlightNPPv1.0.5.zip",
             "description": "Dockable highlight panel for Nextpad++, with Cisco Collaboration log tooling.\n\nFeatures:\n- Multi-style highlighter: 10 colour styles, persisted across sessions, usable on any file\n- Cisco log decoding as the cursor moves: Q.850 cause codes, DTMF blocks, X.509 certificates and SAML responses\n- Nested archive extractor: recursively unpacks zip / tar / tar.gz / tgz / gz (7z and rar need Homebrew 7z or unar)\n- CiscoCollab user-defined language for Cisco log syntax colouring\n- Jump between highlights; import and export highlight sets\n\nUniversal binary (Apple Silicon + Intel). Archives are moved to the Trash after extraction, not deleted.\n\nAuthor: Anthony Nunez (https://github.com/tonynupe)\nOriginal: https://github.com/tonynupe/SmartHighlightNPP\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/SmartHighlightNPP.macos",
             "author": "Anthony Nunez",
             "homepage": "https://github.com/nextpad-plus-plus-plugins/SmartHighlightNPP.macos",
-            "dylib-id": "306c9d703c208ced5367fdb17aaa34575f40278660837e97dc5f28cd91a26e26",
+            "dylib-id": "25cad72da90e2c6164f9086c30a223dd4dcfc3432a15fa9a07be2168e643b7be",
             "dylib-built": "2026-07-16",
             "npp-min-version": "1.0.8"
         }
