@@ -728,6 +728,19 @@
             "dylib-id": "25cad72da90e2c6164f9086c30a223dd4dcfc3432a15fa9a07be2168e643b7be",
             "dylib-built": "2026-07-16",
             "npp-min-version": "1.0.8"
+        },
+        {
+            "folder-name": "Parakeet",
+            "display-name": "Parakeet AI",
+            "version": "1.0.0",
+            "id": "3e8619ef0e029162ab083dd5023c043655e961dfeaaab8b6abcb6b71be29ec1e",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/Parakeet.macos/releases/download/v1.0.0/ParakeetPlugin-v1.0.0.zip",
+            "description": "Offline AI voice suite for Nextpad++ — live voice notes, meeting transcription, summaries and translation, all processed on your Mac.\n\nFeatures:\n- Live voice-note transcription streaming into a tab (Whisper, 100 languages)\n- Meeting mode: transcribe both sides of Zoom/Teams/Meet calls — no bot joins\n- Summarize notes with a local LLM, or bring your own Claude / ChatGPT / Grok account (API, CLI or agent mode)\n- Translate between 200 languages fully offline (NLLB-200)\n- Speaker detection: You/Them labels for meetings, voice fingerprints for in-person recordings (pack needs macOS 15.5+)\n- Transcribe audio/video files; silent menu commands batch over folders with macros\n- Save audio: keep compact .m4a recordings of live sessions\n- Privacy first: 100% offline by default — nothing leaves your Mac unless you connect a cloud account\n\nUniversal binary (Apple Silicon + Intel with AVX2-tuned speech kernels). Bundled speech models included; more models downloadable in-app.\n\nGuide: https://nextpad.org/news/?slug=npp_parakeet_v1.0.0\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/Parakeet.macos",
+            "author": "Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/Parakeet.macos",
+            "dylib-id": "a58365fafcff52a4e399b2cdc8c996b67ad562c3c450a60023d3a9a3166ae678",
+            "dylib-built": "2026-07-20",
+            "npp-min-version": "1.1.0"
         }
     ]
 }
