@@ -1,0 +1,109 @@
+{
+    "version": "0.1.0",
+    "npp-plugins": [
+        {
+            "folder-name": "NppBeads",
+            "display-name": "Beads",
+            "version": "0.9.1",
+            "id": "",
+            "description": "Docked side panel that puts the Beads issue tracker (https://github.com/gastownhall/beads) inside Notepad++. Six surfaces — Dashboard, Issues list, Insights (PageRank / Betweenness / Critical Path / k-core / articulation points / cycles + Project Velocity + Graph Health), force-directed Graph (Heatmap, Critical Path, What-If overlays; Execution-Flow ↔ Dependency-Flow arrow toggle; seven layout presets), Kanban Board with Raw / Effective status modes and drag-to-update, Activity feed with the \"● N new\" status-bar badge.\n\nEditor integration: bead-id detection (bd-XXX pattern) in any open buffer with three commands — Jump to bead under caret (Cmd-Opt-Shift-J), Copy bead id, Create issue from selection (Cmd-Opt-Shift-N).\n\nLive sync via 750ms file watcher on .beads/issues.jsonl + 2s bd list poll. Federation, Jira/GitHub/Linear/Asana bridges, and all data ops go through the bd CLI; install bd separately. Universal arm64+x86_64.\n\nA standalone Beads.app shell (no Notepad++ required) is built from the same source tree; download the DMG from the same GitHub release.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/NppBeads",
+            "author": "Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/NppBeads.linux",
+            "npp-min-version": "1.0.6",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/NppBeads.linux/releases/download/v0.9.1/NppBeadsv0.9.1-linux-arm64.zip",
+            "so-id": "",
+            "so-built": ""
+        },
+        {
+            "folder-name": "NppMarkdownPanel",
+            "display-name": "Markdown Panel",
+            "version": "1.0.6",
+            "id": "",
+            "description": "Real-time Markdown preview panel. Open a .md file and toggle the panel to see a live-rendered preview alongside the editor. Supports GitHub-flavored Markdown, syntax-highlighted code blocks, relative images, dark mode, scroll synchronization, YAML frontmatter, Mermaid diagrams, and export to HTML. Rendering powered by WKWebView with marked.js + highlight.js.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/NppMarkdownPanel",
+            "author": "Jens Wollgarten",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/NppMarkdownPanel.linux",
+            "npp-min-version": "1.0.6",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/NppMarkdownPanel.linux/releases/download/v1.0.6/NppMarkdownPanelv1.0.6-linux-arm64.zip",
+            "so-id": "",
+            "so-built": ""
+        },
+        {
+            "folder-name": "NppMCP",
+            "display-name": "MCP Server",
+            "version": "1.1.0",
+            "id": "",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/NppMCP.linux/releases/download/v1.1.0/NppMCPv1.1.0-linux-arm64.zip",
+            "description": "MCP (Model Context Protocol) server for Nextpad++: exposes the LIVE editor to AI coding agents (Claude Code, Cursor, VS Code, Windsurf, ...). Agents see the document you are actually editing - including unsaved edits - rather than just files on disk.\n\nThe server is a small HTTP listener bound to 127.0.0.1 only, with token authentication. Dockable status panel included.\n\nAuthor: Andrey Letov",
+            "author": "Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/NppMCP.linux",
+            "npp-min-version": "1.1.0",
+            "so-id": "",
+            "so-built": ""
+        },
+        {
+            "folder-name": "SecurePad",
+            "display-name": "SecurePad",
+            "version": "1.0.0",
+            "id": "",
+            "description": "Encrypt or decrypt the current document or selection in place, using a key of your choice (Blowfish cipher).\n\nFeatures:\n- Encrypt / decrypt the whole document\n- Encrypt / decrypt the current selection\n- Blowfish cipher, byte-compatible with the Windows plugin\n- Password (key) dialog with confirmation\n\n\nOriginal plugin by Dominic Tobias (MIT).\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/SecurePad.macos",
+            "author": "Dominic Tobias; macOS port by Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/SecurePad.linux",
+            "npp-min-version": "1.0.8",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/SecurePad.linux/releases/download/v1.0.0/SecurePadv1.0.0-linux-arm64.zip",
+            "so-id": "",
+            "so-built": ""
+        },
+        {
+            "folder-name": "nppURLPlugin",
+            "display-name": "URL Encode/Decode Plugin",
+            "version": "1.0.4",
+            "id": "",
+            "description": "URL Encoder and Decoder plug-in for Notepad++ which helps to encode/decode URLs within Notepad++.\n\nHow it works:\n1. Configure settings from menu (Plugins > URL Plugin > URL Plugin Settings).\n2. Select text/URL which you want to encode/decode.\n3. Perform your task via Plugins > URL Plugin > Encode/Decode URL.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/nppURLPlugin",
+            "author": "Rajendra Singh",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/nppURLPlugin.linux",
+            "npp-min-version": "1.0.6",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/nppURLPlugin.linux/releases/download/v1.0.4/nppURLPluginv1.0.4-linux-arm64.zip",
+            "so-id": "",
+            "so-built": ""
+        },
+        {
+            "folder-name": "XmlNavigator",
+            "display-name": "XML Navigator",
+            "version": "1.0.2",
+            "id": "",
+            "description": "Tree-view navigator for XML documents. Opens a floating panel that renders the active XML document as a hierarchical outline; click any node to jump the editor caret to that position.\n\nFeatures:\n- Compact +/- disclosure markers (no native triangles) matching the Search Results Panel footprint\n- Dense row packing with Cmd+=, Cmd+-, Cmd+0 to zoom the tree font (default 11pt)\n- Hand-rolled UTF-8 XML tokenizer tolerant of ill-formed XML with precise byte offsets per node\n- Filter text field with all-tokens-must-match semantics (order-independent, case-insensitive)\n- Attribute values rendered inline as 'element [attrValue1] [attrValue2]'\n- Six-item right-click menu: Go to Node Start/End, Go to Content Start/End, Select Node/Content\n- Auto-reload on buffer activation, file save, and text changes\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/XmlNavigator",
+            "author": "Christian Grasser",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/XmlNavigator.linux",
+            "npp-min-version": "1.0.6",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/XmlNavigator.linux/releases/download/v1.0.2/XmlNavigatorv1.0.2-linux-arm64.zip",
+            "so-id": "",
+            "so-built": ""
+        },
+        {
+            "folder-name": "xmltools",
+            "display-name": "XML Tools",
+            "version": "1.0.2",
+            "id": "",
+            "description": "XML Tools for editing, validating, and navigating XML documents.\n\nFeatures:\n- Check XML syntax and validate, with error navigation and annotations\n- Pretty print (indent attributes / indent only) and Linearize\n- Current XML Path (basic and with predicates)\n- Evaluate XPath expressions\n- XSL Transformation\n- Escape / Unescape and Comment / Uncomment selection\n- Toolbar icons (light and dark mode), individually toggleable in Options\n\nXML engine: libxml2 + libxslt; pretty-print via the bundled QuickXml.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/xmltools",
+            "author": "Nick Gravgaard, morbac",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/xmltools.linux",
+            "npp-min-version": "1.0.6",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/xmltools.linux/releases/download/v1.0.2/xmltoolsv1.0.2-linux-arm64.zip",
+            "so-id": "",
+            "so-built": ""
+        },
+        {
+            "folder-name": "NppZapGremlins",
+            "display-name": "Zap Gremlins",
+            "version": "1.0.1",
+            "id": "",
+            "description": "Remove or replace \"gremlin\" characters — invisible, control, or non-ASCII characters that sneak into files and cause subtle bugs (BBEdit-style \"Zap Gremlins\").\n\nSearch categories:\n- Non-ASCII characters (above U+007F)\n- Control characters (C0 except Tab/CR/LF, plus DEL)\n- Null (ASCII 0) characters\n\nActions:\n- Delete\n- Replace with a character of your choice\n- Replace with a \\uXXXX code, optionally transliterating common typographic characters to ASCII first (smart quotes, dashes, NBSP, ...)\n- Replace with an HTML entity (named where available, else numeric)\n\nOperates on the selection if any, else the whole document, as one undo step. Includes an optional \"Highlight gremlins\" toggle.\n\nmacOS Author: Andrey Letov\nHomepage: https://github.com/nextpad-plus-plus-plugins/NppZapGremlins",
+            "author": "Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/NppZapGremlins.linux",
+            "npp-min-version": "1.0.6",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/NppZapGremlins.linux/releases/download/v1.0.1/NppZapGremlinsv1.0.1-linux-arm64.zip",
+            "so-id": "",
+            "so-built": ""
+        }
+    ]
+}

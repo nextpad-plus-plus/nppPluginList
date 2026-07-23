@@ -72,6 +72,14 @@
 					"type": "string",
 					"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
 				},
+				"so-id": {
+					"type": "string",
+					"pattern": "(?i)^[0-9A-F]{64}$"
+				},
+				"so-built": {
+					"type": "string",
+					"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+				},
 				"npp-min-version": {
 					"type": "string",
 					"pattern": "^\\d+(\\.\\d+){,3}$"

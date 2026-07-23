@@ -6,7 +6,7 @@ Validates pl.macos-arm64.json:
   - JSON schema conformance
   - Unique folder-name, display-name, and repository entries
   - Downloads each ZIP and verifies SHA-256 hash
-  - Checks that ZIP contains {folder-name}.dylib
+  - Checks that ZIP contains {folder-name}.dylib (mac) or .so (linux)
 
 Optionally generates doc/plugin_list_macos_arm64.md (pass "md" argument).
 
@@ -63,6 +63,11 @@ def validate_schema(pl):
             post_error(f"{name}: 'dylib-id' must be a 64-character hex SHA-256 hash")
         if "dylib-built" in plugin and not date_re.match(plugin["dylib-built"]):
             post_error(f"{name}: 'dylib-built' must be YYYY-MM-DD")
+        # Linux catalogs use so-id / so-built (same formats)
+        if "so-id" in plugin and not sha256_re.match(plugin["so-id"]):
+            post_error(f"{name}: 'so-id' must be a 64-character hex SHA-256 hash")
+        if "so-built" in plugin and not date_re.match(plugin["so-built"]):
+            post_error(f"{name}: 'so-built' must be YYYY-MM-DD")
         if "npp-min-version" in plugin and not semver_re.match(plugin["npp-min-version"]):
             post_error(f"{name}: 'npp-min-version' must look like N[.N[.N[.N]]]")
 
@@ -91,11 +96,13 @@ def validate_uniqueness(plugins):
 
 
 def validate_plugin(plugin):
-    """Download ZIP, verify hash, check for .dylib inside."""
+    """Download ZIP, verify hash, check for the plugin binary inside."""
     name = plugin["display-name"]
     url = plugin["repository"]
     expected_hash = plugin["id"].lower()
-    dylib_name = f'{plugin["folder-name"]}.dylib'
+    # macOS zips carry {folder}.dylib, Linux zips {folder}.so
+    binary_names = (f'{plugin["folder-name"]}.dylib',
+                    f'{plugin["folder-name"]}.so')
 
     print(f"  Checking {name}...", end="", flush=True)
 
@@ -149,16 +156,16 @@ def validate_plugin(plugin):
         post_error(f"{name}: invalid ZIP file")
         return
 
-    # Check for .dylib (case-insensitive)
+    # Check for the plugin binary (case-insensitive; .dylib or .so)
     found = False
     for entry in zf.namelist():
-        if entry.lower().endswith(dylib_name.lower()):
+        if any(entry.lower().endswith(b.lower()) for b in binary_names):
             found = True
             break
 
     if not found:
-        print(f" MISSING {dylib_name}")
-        post_error(f"{name}: ZIP does not contain {dylib_name}")
+        print(f" MISSING {' / '.join(binary_names)}")
+        post_error(f"{name}: ZIP contains neither of {binary_names}")
         return
 
     print(" OK")
