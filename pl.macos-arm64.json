@@ -303,14 +303,14 @@
         {
             "folder-name": "NppBeads",
             "display-name": "Beads",
-            "version": "0.9.1",
-            "id": "6256657bc05e77910bd14159d015d89f36d9d92d03504cba4ace96d9143e46e8",
-            "repository": "https://github.com/nextpad-plus-plus-plugins/NppBeads.macos/releases/download/v0.9.1/NppBeadsv0.9.1.zip",
+            "version": "0.9.3",
+            "id": "f3528c16af9ed216b0941439dd88d3e42f8f0339a85bf4897093af9ccefbb9ec",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/NppBeads.macos/releases/download/v0.9.3/NppBeadsv0.9.3.zip",
             "description": "Task Tracking and management for Multi-Agent AI Systems that works with Dolt databases. Six surfaces — Dashboard, Issues list, Insights (PageRank / Betweenness / Critical Path / k-core / articulation points / cycles + Project Velocity + Graph Health), force-directed Graph (Heatmap, Critical Path, What-If overlays; Execution-Flow ↔ Dependency-Flow arrow toggle; seven layout presets), Kanban Board with Raw / Effective status modes and drag-to-update, Activity feed with the \"● N new\" status-bar badge.\n\nEditor integration: bead-id detection (bd-XXX pattern) in any open buffer with three commands — Jump to bead under caret (Cmd-Opt-Shift-J), Copy bead id, Create issue from selection (Cmd-Opt-Shift-N).\n\nLive sync via 750ms file watcher on .beads/issues.jsonl + 2s bd list poll. Federation, Jira/GitHub/Linear/Asana bridges, and all data ops go through the bd CLI; install bd separately. Universal arm64+x86_64.\n\nA standalone Beads.app shell (no Notepad++ required) is built from the same source tree; download the DMG from the same GitHub release.\n\nmacOS Port Author: Andrew Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/NppBeads.macos",
             "author": "Andrew Letov",
             "homepage": "https://github.com/nextpad-plus-plus-plugins/NppBeads.macos",
-            "dylib-id": "52cec3a5c9a40f563fc1b6c372830fc186fa72506a3340f8d2b236906cd96813",
-            "dylib-built": "2026-05-11",
+            "dylib-id": "26c0e97152fe137aea7f0093303d85e7dbc0d81d97646a6dfc302abfc570069e",
+            "dylib-built": "2026-07-23",
             "npp-min-version": "1.0.6"
         },
         {
