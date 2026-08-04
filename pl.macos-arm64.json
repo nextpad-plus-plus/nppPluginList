@@ -741,6 +741,19 @@
             "dylib-id": "4aca28c3b8eea80ffc2f4e26cd1e8e62a4c86f14a9f2619f15fdded53af951fd",
             "dylib-built": "2026-07-21",
             "npp-min-version": "1.1.0"
+        },
+        {
+            "folder-name": "NppMCP",
+            "display-name": "MCP Server",
+            "version": "1.0.0",
+            "id": "8a3b849d6445e74f59e8801e84fc2e43705988dd736d278d9837c7d350872e84",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/MCPServer.macos/releases/download/v1.0.0/NppMCPv1.0.0.zip",
+            "description": "Connect your AI assistant to Nextpad++. Implements the Model Context Protocol (MCP) so Claude Code, Claude Desktop, Cursor, VS Code agents and Windsurf can see the documents you have open - live, including unsaved edits - and, with your permission, edit them.\n\nFeatures:\n- Reads the active tab, your selection, the lines around your caret, and every open tab (untitled scratch tabs included)\n- Search the active document or all open tabs at once; find-and-replace across every open tab\n- Precise write-back: multi-line edits land as a single undo (cross-tab replace is one undo per tab), guarded by a content checksum so an assistant never clobbers your typing\n- Creates tabs, sets syntax languages, opens/saves/closes/reloads files\n- Permissions: read-only out of the box; editing, tab creation and file operations are three separate opt-in switches, and a tool you haven't granted is invisible to the assistant\n- Local-only and private: binds 127.0.0.1 behind a personal bearer token, no cloud, no code execution, and every request appears in the panel's live activity log\n- One-click client setup snippets for Claude Code, Cursor / VS Code and Claude Desktop (stdio bridge included)\n\nUniversal binary (Apple Silicon + Intel), macOS 12+.\n\nGuide: https://nextpad.org/news/?slug=npp_mcp_v1.0.0\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/MCPServer.macos",
+            "author": "Andrew Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/MCPServer.macos",
+            "dylib-id": "369f9f11b465f1eac1f38addc3b3bb670e91c0dce6b248cf0058d9dc7b9dbb6f",
+            "dylib-built": "2026-08-03",
+            "npp-min-version": "1.1.0"
         }
     ]
 }
