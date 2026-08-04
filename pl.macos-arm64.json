@@ -767,6 +767,19 @@
             "dylib-id": "407af392e158a4fbddd70e502407c64a54752c0f935ecd0421463d792cb8fef1",
             "dylib-built": "2026-08-03",
             "npp-min-version": "1.1.0"
+        },
+        {
+            "folder-name": "LuaScript",
+            "display-name": "LuaScript",
+            "version": "1.0.0",
+            "id": "e59ed9e1ddada6d51c75f6105fac39867dddde67ecc2c79a2653c1b8159336df",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/LuaScript.macos/releases/download/v1.0.0/LuaScriptv1.0.0.zip",
+            "description": "Script Nextpad++ with an embedded Lua 5.3.5 interpreter.\n\nFeatures:\n- Interactive console with syntax highlighting, autocomplete, history and a prompt\n- Run the current file, or a startup.lua that loads automatically on launch\n- Full editor + application API: read and edit the active document (and any open tab), drive menu commands, react to editor events\n- Register your own commands and keyboard shortcuts from Lua, appearing as menu items\n- Inter-plugin messaging so other plugins can run Lua in the editor\n\nUniversal binary (Apple Silicon + Intel), macOS 12+.\n\nmacOS Port Author: Andrew Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/LuaScript.macos",
+            "author": "Justin Dailey",
+            "homepage": "https://github.com/dail8859/LuaScript",
+            "dylib-id": "6153c8c9550b0329607af6a0b86fa6cabf2c688464389e5b90169c6bbbc5d9b3",
+            "dylib-built": "2026-08-03",
+            "npp-min-version": "1.1.0"
         }
     ]
 }
