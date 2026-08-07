@@ -780,6 +780,19 @@
             "dylib-id": "6153c8c9550b0329607af6a0b86fa6cabf2c688464389e5b90169c6bbbc5d9b3",
             "dylib-built": "2026-08-03",
             "npp-min-version": "1.1.0"
+        },
+        {
+            "folder-name": "Finder",
+            "display-name": "Finder",
+            "version": "1.3.1",
+            "id": "caf1ea675bf4217467c105f125779c8cd722e3cd5bf28925d36aa2115f0f5ea1",
+            "repository": "https://github.com/ioso71/nextpad-plus-plus/releases/download/finder-v1.3.1/Finder-v1.3.1.zip",
+            "description": "Finder-style sidebar panel for Nextpad++ (macOS): folder tree + file list of the real filesystem, with Finder integration.\n\nFeatures:\n- Folder tree (lazily loaded) + file list of the selected root — Home, Computer (/), mounted volumes, favorites, or a freely chosen folder\n- Double-click a file to open it in Nextpad++; double-click a folder to navigate into it\n- Locate Current File in Finder Panel / Reveal Current File in macOS Finder\n- Context menu: Open, Reveal in Finder, Open in Terminal, New Folder/File, Rename, Duplicate, Move to Trash, Copy Path/Name, Add to Favorites\n- Search/filter field for the file list\n- Last root path and favorites persisted between sessions\n- Multilingual (German/English), switches live with the host's language setting\n\nUniversal binary (Apple Silicon + Intel), macOS 11+.\n\nAuthor: Maik Wendelken\nHomepage: https://github.com/ioso71/nextpad-plus-plus/tree/main/Plugins/finder",
+            "author": "Maik Wendelken",
+            "homepage": "https://github.com/ioso71/nextpad-plus-plus/tree/main/Plugins/finder",
+            "dylib-id": "c015bbc4e4b5fb9e46e8842f2d0f8f7395fc785991dc189d032ab77a8b74bde2",
+            "dylib-built": "2026-08-07",
+            "npp-min-version": "1.0.3"
         }
     ]
 }
