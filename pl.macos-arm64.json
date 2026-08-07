@@ -758,14 +758,14 @@
         {
             "folder-name": "CSVLint",
             "display-name": "CSV Lint",
-            "version": "1.0.0",
-            "id": "41bb2d5c3cd9a950849a4b81f8ce1f0ab2987fe8fe6de1d1698132bd740d7ce3",
-            "repository": "https://github.com/nextpad-plus-plus-plugins/CSVLint.macos/releases/download/v1.0.0/CSVLintv1.0.0.zip",
-            "description": "Detect and fix problems in delimited data (CSV, TSV, fixed-width) right inside Nextpad++.\n\nFeatures:\n- Analyze a file to auto-detect its separator, quote style and column schema\n- Validate rows against the detected or a saved schema, flagging problems inline\n- Convert between delimiters and reformat delimited data\n- Generate boilerplate code from the schema (SQL and more)\n- Per-file settings persisted to \"CSV Lint.ini\" (Windows-parity)\n\nUniversal binary (Apple Silicon + Intel), macOS 12+.\n\nmacOS Port Author: Andrew Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/CSVLint.macos",
+            "version": "1.0.1",
+            "id": "7d5b54097663674e7c5b656614b30217d0c5773f7666efd990226b33267c9edd",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/CSVLint.macos/releases/download/v1.0.1/CSVLintv1.0.1.zip",
+            "description": "Detect and fix problems in delimited data (CSV, TSV, fixed-width) right inside Nextpad++.\n\nFeatures:\n- Analyze a file to auto-detect its separator, quote style and column schema\n- Validate rows against the detected or a saved schema, flagging problems inline\n- Convert between delimiters and reformat delimited data\n- Convert data to SQL, XML, JSON or a styled HTML table\n- Generate boilerplate code from the schema (SQL and more)\n- Per-file settings persisted to \"CSV Lint.ini\" (Windows-parity)\n\nUniversal binary (Apple Silicon + Intel), macOS 12+.\n\nmacOS Port Author: Andrew Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/CSVLint.macos",
             "author": "Bas de Reuver",
             "homepage": "https://github.com/BdR76/CSVLint",
-            "dylib-id": "407af392e158a4fbddd70e502407c64a54752c0f935ecd0421463d792cb8fef1",
-            "dylib-built": "2026-08-03",
+            "dylib-id": "10f977f8b03325b1fe27c877bfa74aae8219dd47c1d4f09b31dbc3f743ef2eb9",
+            "dylib-built": "2026-08-07",
             "npp-min-version": "1.1.0"
         },
         {
