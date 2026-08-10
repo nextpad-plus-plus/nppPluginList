@@ -12,10 +12,16 @@ Rule: take the higher of
   * the version already published in pl.linux-{x86,arm64}.json — never
     regress a version users may already have installed
 
-The macOS catalog is deliberately NOT consulted. The two ports are separate
-codebases that ship fixes on their own schedules, so a macOS-only bump must
-not relabel a Linux binary that does not contain it (macOS shipping
-ComparePlus 1.0.8 does not make our 1.0.7 Linux build a 1.0.8).
+The macOS catalog is never a FLOOR — the ports are separate codebases that
+ship fixes on their own schedules, so a macOS-only bump must not relabel a
+Linux binary that does not contain it (macOS shipping ComparePlus 1.0.8
+does not make our 1.0.7 Linux build a 1.0.8).
+
+It IS a CEILING: the macOS port is the source of truth for feature
+behaviour, so a Linux plugin may trail its macOS counterpart but must
+never be ahead of it. A resolved version above the macOS one is clamped
+down (this deliberately overrides the no-downgrade floor — correcting an
+over-versioned release is the one sanctioned downgrade).
 
 Emits a TSV: repo_dir <TAB> folder_name <TAB> version
 and prints any disagreements to stderr so they get a human look.
@@ -76,6 +82,8 @@ def main():
             if vtuple(ver) > vtuple(pub.get(folder)):
                 pub[folder] = ver
 
+    mac = catalog_versions(LIST_REPO / "pl.macos-arm64.json")
+
     rows, notes = [], []
     for d in sorted(SRC.glob("*.linux"), key=lambda p: p.name.lower()):
         cml = d / "CMakeLists.txt"
@@ -96,6 +104,13 @@ def main():
                 f"{folder}: CMake says {cver} but {pver} is already published "
                 f"— using {pver} to avoid a downgrade"
             )
+        mver = mac.get(folder)
+        if mver and vtuple(eff) > vtuple(mver):
+            notes.append(
+                f"{folder}: {eff} is AHEAD of the macOS port ({mver}) "
+                f"— clamped to {mver}"
+            )
+            eff = mver
         rows.append((d.name, folder, eff))
 
     for r in rows:
