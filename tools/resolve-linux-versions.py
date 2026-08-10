@@ -6,13 +6,16 @@ Both architectures must package the SAME version string (the version is
 baked into the zip filename, the git tag and the download URL), so the
 resolution happens once, here, and both build runs consume the result.
 
-Rule: take the highest of
+Rule: take the higher of
   * project(... VERSION x.y.z) in the plugin's CMakeLists.txt  — the port's
     own declared version, the primary source of truth
   * the version already published in pl.linux-{x86,arm64}.json — never
     regress a version users may already have installed
-  * the macOS catalog version for the same folder-name — the ports share a
-    lineage and the existing Linux entries mirror it
+
+The macOS catalog is deliberately NOT consulted. The two ports are separate
+codebases that ship fixes on their own schedules, so a macOS-only bump must
+not relabel a Linux binary that does not contain it (macOS shipping
+ComparePlus 1.0.8 does not make our 1.0.7 Linux build a 1.0.8).
 
 Emits a TSV: repo_dir <TAB> folder_name <TAB> version
 and prints any disagreements to stderr so they get a human look.
@@ -68,7 +71,7 @@ def catalog_versions(path: Path):
 
 def main():
     pub = {}
-    for name in ("pl.linux-x86.json", "pl.linux-arm64.json", "pl.macos-arm64.json"):
+    for name in ("pl.linux-x86.json", "pl.linux-arm64.json"):
         for folder, ver in catalog_versions(LIST_REPO / name).items():
             if vtuple(ver) > vtuple(pub.get(folder)):
                 pub[folder] = ver
