@@ -108,14 +108,14 @@
     {
       "folder-name": "DSpellCheck",
       "display-name": "DSpellCheck",
-      "version": "1.0.1",
-      "id": "5baa9ba6604e6ed9ca097640192edc7c2f666b5c3ec55d827bf9c64dc5332ce7",
-      "repository": "https://github.com/nextpad-plus-plus-plugins/DSpellCheck.linux/releases/download/v1.0.1/DSpellCheckv1.0.1-linux-x86.zip",
+      "version": "1.0.2",
+      "id": "c771e18b76002cfd41a20f759fc6af03b344df3a81546a6c2b80d7e83cca7192",
+      "repository": "https://github.com/nextpad-plus-plus-plugins/DSpellCheck.linux/releases/download/v1.0.2/DSpellCheckv1.0.2-linux-x86.zip",
       "description": "Live spell-checking with a bundled, self-contained Hunspell engine and 100+ languages available for download.\n\nFeatures:\n- Red-squiggle underlining of misspelled words as you type/scroll\n- Left single-click a misspelled word for suggestions (Ignore / Add to dictionary)\n- Find next/previous misspelling; copy/erase/bookmark misspellings\n- Multiple simultaneous languages; change current language\n- In code, check only comments/strings/identifiers (per-lexer aware)\n- File-type filtering; debug log\n- In-app Download Dictionaries dialog (LibreOffice/OpenOffice .aff/.dic)\n- Settings (Simple + Advanced)\n\nDictionaries are downloaded on demand (Change Current Language > Download Languages).\n\nLinux Author: Andrew Letov\nHomepage: https://github.com/nextpad-plus-plus-plugins/DSpellCheck.macos",
       "author": "Sergey Semushin",
       "homepage": "https://github.com/nextpad-plus-plus-plugins/DSpellCheck.linux",
-      "so-id": "323c777cfaa7d15d358640ee0cefe1dd88345d5c5c35f077e6021d288b83ae92",
-      "so-built": "2026-08-10",
+      "so-id": "0ed9c4ea8ed62812723881dd1e361b3b92355eaed62a171e77bd25c3ada2f7b0",
+      "so-built": "2026-08-12",
       "npp-min-version": "1.1.0"
     },
     {
