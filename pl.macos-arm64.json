@@ -780,6 +780,19 @@
             "dylib-id": "6153c8c9550b0329607af6a0b86fa6cabf2c688464389e5b90169c6bbbc5d9b3",
             "dylib-built": "2026-08-03",
             "npp-min-version": "1.1.0"
+        },
+        {
+            "folder-name": "Finder",
+            "display-name": "Finder",
+            "version": "1.3.1",
+            "id": "c03a072852b621ec148fc8034b9c25c98392ec17ea96da7c0c3628ae6b546daa",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/Finder.macos/releases/download/v1.3.1/Finderv1.3.1.zip",
+            "description": "A folder tree + file list sidebar over the real filesystem — the macOS counterpart of the classic Windows Explorer plugin.\n\nFeatures:\n- Folder tree and file list side by side, with root picker (Home, Computer, volumes, favorites, any folder)\n- Open files in Nextpad++ with a double-click; locate the current file in the tree\n- Finder-style actions: reveal in Finder, open in Terminal, new file/folder, rename, duplicate, move to Trash (with confirmation), copy path/name\n- Live filter box, favorites, per-session root memory\n- English and German UI, follows the host language setting live\n\nUniversal binary (Apple Silicon + Intel), macOS 12+.\n\nBuilt from reviewed source by the Nextpad++ team.\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/Finder.macos",
+            "author": "Maik Wendelken",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/Finder.macos",
+            "dylib-id": "ea977b3255487a542bedc46cf4ed03221fadd908d8964f3c365ca5aa336bbd0a",
+            "dylib-built": "2026-08-19",
+            "npp-min-version": "1.1.0"
         }
     ]
 }
