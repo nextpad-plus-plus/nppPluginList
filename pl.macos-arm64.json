@@ -4,14 +4,14 @@
         {
             "folder-name": "NextZip",
             "display-name": "NextZip",
-            "version": "1.0.0",
-            "id": "7801852535e42dfe2ea335c7194c7f81effa5a1c49dede4896f86b74ac91fb0a",
-            "repository": "https://github.com/nextpad-plus-plus-plugins/NextZip.macos/releases/download/v1.0.0/NextZipv1.0.0.zip",
+            "version": "1.0.1",
+            "id": "34bf0df401d5ba5e6b053519d7edced41d5e1308225d43df8e769e64acbdb9f6",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/NextZip.macos/releases/download/v1.0.1/NextZipv1.0.1.zip",
             "description": "Archive manager for Nextpad++, powered by the fully ported 7-Zip engine.\n\nFeatures:\n- Dockable two-pane panel: filesystem browser on top, archive contents below\n- Opens 7z, zip, tar, gz, bz2, xz, RAR / RAR5 and more (RAR is extraction-only)\n- Transparent nested-archive descent (e.g. site.tar.gz)\n- Open a file from inside an archive in the editor; saving writes it back into the archive\n- Create archives with a full Add-to-Archive dialog (format, level, method, dictionary, solid, threads, encryption)\n- Extract with path mode, overwrite mode and eliminate-root options\n- Password-protected archives: prompts for a password (with Show Password) when extracting or opening\n- Test archives and compute CRC32 / MD5 / SHA-1 / SHA-256 / SHA-384 / SHA-512 checksums\n\nUniversal binary (Apple Silicon + Intel). Bundles the 7-Zip 7z.so engine.\n\nEngine: 7-Zip by Igor Pavlov (LGPL + unRAR restriction). Plugin: GPL.\nmacOS Port Author: Andrew Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/NextZip.macos",
             "author": "Andrew Letov",
             "homepage": "https://github.com/nextpad-plus-plus-plugins/NextZip.macos",
-            "dylib-id": "2a9eb163f89d57efc98f16a3d4fd0f75fb4abd33d510d7cba5ab55d4fbcae55d",
-            "dylib-built": "2026-07-02",
+            "dylib-id": "66e983ef95670e1cb85db51ba6020ac0b7091a4fc3d5f70ec93178659faef318",
+            "dylib-built": "2026-08-19",
             "npp-min-version": "1.0.8"
         },
         {
