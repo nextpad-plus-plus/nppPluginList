@@ -160,14 +160,14 @@
     {
       "folder-name": "NextZip",
       "display-name": "NextZip",
-      "version": "1.0.0",
-      "id": "9bd328ede538b4bf40e3a6d5750fa0fcb0045b2a4c8096221dfb6ca9ec22dee0",
-      "repository": "https://github.com/nextpad-plus-plus-plugins/NextZip.linux/releases/download/v1.0.0/NextZipv1.0.0-linux-x86.zip",
+      "version": "1.0.1",
+      "id": "dcbfa48b6d17bed516d4bdd2eac83b0e9e3b7e7ba94fa2f7ccfa954460937365",
+      "repository": "https://github.com/nextpad-plus-plus-plugins/NextZip.linux/releases/download/v1.0.1/NextZipv1.0.1-linux-x86.zip",
       "description": "Archive manager for Nextpad++, powered by the fully ported 7-Zip engine.\n\nFeatures:\n- Dockable two-pane panel: filesystem browser on top, archive contents below\n- Opens 7z, zip, tar, gz, bz2, xz, RAR / RAR5 and more (RAR is extraction-only)\n- Transparent nested-archive descent (e.g. site.tar.gz)\n- Open a file from inside an archive in the editor; saving writes it back into the archive\n- Create archives with a full Add-to-Archive dialog (format, level, method, dictionary, solid, threads, encryption)\n- Extract with path mode, overwrite mode and eliminate-root options\n- Password-protected archives: prompts for a password (with Show Password) when extracting or opening\n- Test archives and compute CRC32 / MD5 / SHA-1 / SHA-256 / SHA-384 / SHA-512 checksums\n\nBuilds for arm64 and x86_64. Bundles the 7-Zip 7z.so engine.\n\nEngine: 7-Zip by Igor Pavlov (LGPL + unRAR restriction). Plugin: GPL.\nPort Author: Andrew Letov\nHomepage: https://github.com/nextpad-plus-plus-plugins/NextZip.linux",
       "author": "Andrew Letov",
       "homepage": "https://github.com/nextpad-plus-plus-plugins/NextZip.linux",
-      "so-id": "c6b627e0fd40fa198147b58f66869a709716dbd219b308c4686ad496cdab7c19",
-      "so-built": "2026-08-10",
+      "so-id": "f7843a477a5e3da43288c1335d0c4a952dc6d2c5adb9b07b60e944a023592f4c",
+      "so-built": "2026-08-19",
       "npp-min-version": "1.1.0"
     },
     {
