@@ -225,14 +225,14 @@
     {
       "folder-name": "NppMarkdownPanel",
       "display-name": "Markdown Panel",
-      "version": "1.0.7",
-      "id": "12b79196a160b55fdbdcb52833f832c799ee67831d15d9a89c68984fb1dbcea8",
-      "repository": "https://github.com/nextpad-plus-plus-plugins/NppMarkdownPanel.linux/releases/download/v1.0.7/NppMarkdownPanelv1.0.7-linux-arm64.zip",
+      "version": "1.0.8",
+      "id": "19ef5d479996232a6579300400127b486d4bbe427477cfc48d04242566293119",
+      "repository": "https://github.com/nextpad-plus-plus-plugins/NppMarkdownPanel.linux/releases/download/v1.0.8/NppMarkdownPanelv1.0.8-linux-arm64.zip",
       "description": "Real-time Markdown preview panel. Open a .md file and toggle the panel to see a live-rendered preview alongside the editor. Supports GitHub-flavored Markdown, syntax-highlighted code blocks, relative images, dark mode, scroll synchronization, YAML frontmatter, Mermaid diagrams, and export to HTML. Rendering powered by WKWebView with marked.js + highlight.js.\n\nPort Author: Andrey Letov\nHomepage: https://github.com/nextpad-plus-plus-plugins/NppMarkdownPanel.linux",
       "author": "Jens Wollgarten",
       "homepage": "https://github.com/nextpad-plus-plus-plugins/NppMarkdownPanel.linux",
-      "so-id": "bbc5f038cecbcd7acd358cee508ae258f73954f7bee966583150dc6a4254675c",
-      "so-built": "2026-08-10",
+      "so-id": "36d386ef6080fef1c627cd0b8334b0fe86cb5c282d58a8cc98dd1a39d3321e74",
+      "so-built": "2026-08-19",
       "npp-min-version": "1.1.0"
     },
     {
