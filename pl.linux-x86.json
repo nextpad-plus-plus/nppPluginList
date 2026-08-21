@@ -144,6 +144,19 @@
       "so-built": "2026-08-10",
       "npp-min-version": "1.1.0"
     },
+      {
+        "folder-name": "HexEditor",
+        "display-name": "HEX-Editor",
+        "version": "1.2.0",
+        "id": "336e6bfe37b973012f46e06e1d8be853800b14355c83f8d81a82a7bc9da48a68",
+        "repository": "https://github.com/nextpad-plus-plus-plugins/NPP_HexEdit.linux/releases/download/v1.2.0/HexEditorv1.2.0-linux-x86.zip",
+        "description": "Native hex editor for Nextpad++. Directly edits any open buffer as a grid of bytes: overwrite + append in hex and ASCII panes, bit-precise editing in binary notation, rectangular (block) selection with Alt-drag, large copy / paste including a structured rectangular clipboard, find + find-and-replace (auto-detects ASCII vs hex patterns), go-to-offset (decimal / hex / relative), 8 / 16 / 32 / 64-bit grouping, big- / little-endian display, configurable address width + columns, compare-against-file with red-highlighted diffs, Insert Columns, Pattern Replace, bookmarks, and cross-app paste that strips address columns and ASCII glosses from lldb / gdb / xxd / x64dbg / IDA / C-array dumps.\n\nOriginal Windows author: Jens Lorenz. Windows GitHub maintainer: Christian Grasser (https://github.com/chcg/NPP_HexEdit). macOS port: Dave Hadner.\n\nPort Author: Andrew Letov\nHomepage: https://github.com/nextpad-plus-plus-plugins/NPP_HexEdit.linux",
+        "author": "Jens Lorenz",
+        "homepage": "https://github.com/nextpad-plus-plus-plugins/NPP_HexEdit.linux",
+        "so-id": "b635047d048b316eb9dd0e857325f9e2d3926c18f95b27c764341ea6948eeb16",
+        "so-built": "2026-08-21",
+        "npp-min-version": "1.1.1"
+      },
     {
       "folder-name": "LuaScript",
       "display-name": "LuaScript",
