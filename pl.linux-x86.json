@@ -144,19 +144,19 @@
       "so-built": "2026-08-10",
       "npp-min-version": "1.1.0"
     },
-      {
-        "folder-name": "HexEditor",
-        "display-name": "HEX-Editor",
-        "version": "1.2.0",
-        "id": "336e6bfe37b973012f46e06e1d8be853800b14355c83f8d81a82a7bc9da48a68",
-        "repository": "https://github.com/nextpad-plus-plus-plugins/NPP_HexEdit.linux/releases/download/v1.2.0/HexEditorv1.2.0-linux-x86.zip",
-        "description": "Native hex editor for Nextpad++. Directly edits any open buffer as a grid of bytes: overwrite + append in hex and ASCII panes, bit-precise editing in binary notation, rectangular (block) selection with Alt-drag, large copy / paste including a structured rectangular clipboard, find + find-and-replace (auto-detects ASCII vs hex patterns), go-to-offset (decimal / hex / relative), 8 / 16 / 32 / 64-bit grouping, big- / little-endian display, configurable address width + columns, compare-against-file with red-highlighted diffs, Insert Columns, Pattern Replace, bookmarks, and cross-app paste that strips address columns and ASCII glosses from lldb / gdb / xxd / x64dbg / IDA / C-array dumps.\n\nOriginal Windows author: Jens Lorenz. Windows GitHub maintainer: Christian Grasser (https://github.com/chcg/NPP_HexEdit). macOS port: Dave Hadner.\n\nPort Author: Andrew Letov\nHomepage: https://github.com/nextpad-plus-plus-plugins/NPP_HexEdit.linux",
-        "author": "Jens Lorenz",
-        "homepage": "https://github.com/nextpad-plus-plus-plugins/NPP_HexEdit.linux",
-        "so-id": "b635047d048b316eb9dd0e857325f9e2d3926c18f95b27c764341ea6948eeb16",
-        "so-built": "2026-08-21",
-        "npp-min-version": "1.1.1"
-      },
+    {
+      "folder-name": "HexEditor",
+      "display-name": "HEX-Editor",
+      "version": "1.2.0",
+      "id": "336e6bfe37b973012f46e06e1d8be853800b14355c83f8d81a82a7bc9da48a68",
+      "repository": "https://github.com/nextpad-plus-plus-plugins/NPP_HexEdit.linux/releases/download/v1.2.0/HexEditorv1.2.0-linux-x86.zip",
+      "description": "Native hex editor for Nextpad++. Directly edits any open buffer as a grid of bytes: overwrite + append in hex and ASCII panes, bit-precise editing in binary notation, rectangular (block) selection with Alt-drag, large copy / paste including a structured rectangular clipboard, find + find-and-replace (auto-detects ASCII vs hex patterns), go-to-offset (decimal / hex / relative), 8 / 16 / 32 / 64-bit grouping, big- / little-endian display, configurable address width + columns, compare-against-file with red-highlighted diffs, Insert Columns, Pattern Replace, bookmarks, and cross-app paste that strips address columns and ASCII glosses from lldb / gdb / xxd / x64dbg / IDA / C-array dumps.\n\nOriginal Windows author: Jens Lorenz. Windows GitHub maintainer: Christian Grasser (https://github.com/chcg/NPP_HexEdit). macOS port: Dave Hadner.\n\nPort Author: Andrew Letov\nHomepage: https://github.com/nextpad-plus-plus-plugins/NPP_HexEdit.linux",
+      "author": "Jens Lorenz",
+      "homepage": "https://github.com/nextpad-plus-plus-plugins/NPP_HexEdit.linux",
+      "so-id": "b635047d048b316eb9dd0e857325f9e2d3926c18f95b27c764341ea6948eeb16",
+      "so-built": "2026-08-21",
+      "npp-min-version": "1.1.1"
+    },
     {
       "folder-name": "LuaScript",
       "display-name": "LuaScript",
@@ -285,6 +285,19 @@
       "homepage": "https://github.com/nextpad-plus-plus-plugins/NppZapGremlins.linux",
       "so-id": "51ac6e7a00e93d9aeb8561cb18db725298166d3224d0801abb05d90f33a6dc28",
       "so-built": "2026-08-10",
+      "npp-min-version": "1.1.0"
+    },
+    {
+      "folder-name": "Parakeet",
+      "display-name": "Parakeet",
+      "version": "1.0.0",
+      "id": "a947bdb6015bdbf1afb03a6989d9fcb52168d684f774585a9058649ac2df4592",
+      "repository": "https://github.com/nextpad-plus-plus-plugins/Parakeet.linux/releases/download/v1.0.0/Parakeetv1.0.0-linux-x86.zip",
+      "description": "Offline voice notes: record speech, transcribe it locally with Whisper, then structure or translate the result with on-device AI models. No cloud, no account, no audio leaving the machine.\n\nDictate straight into the editor, transcribe existing audio/video files, detect speakers, and summarise long recordings into clean Markdown notes. Meeting mode captures system audio alongside the microphone.\n\nGPU acceleration: ships a Vulkan engine used automatically when a discrete GPU is present (roughly 7-8x faster than CPU); machines without one fall back to the CPU engine transparently.\n\nOptional runtime packages: gstreamer1.0-libav (needed for the \"Save audio\" .m4a feature and m4a/aac input), libvulkan1 (enables the GPU engine).\n\nAuthor: Andrey Letov",
+      "author": "Andrey Letov",
+      "homepage": "https://github.com/nextpad-plus-plus-plugins/Parakeet.linux",
+      "so-id": "7d8bff1547cef0d8e42f732c166832cb366e6c2d46c39d966d433f10b597a964",
+      "so-built": "2026-09-01",
       "npp-min-version": "1.1.0"
     },
     {
