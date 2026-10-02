@@ -132,6 +132,19 @@
       "npp-min-version": "1.1.0"
     },
     {
+      "folder-name": "Finder",
+      "display-name": "Finder",
+      "version": "1.4.0",
+      "id": "fef8d261eeb61458d7f7888376cec18673cd51697dc32108bbfb9c290fcfa2a9",
+      "repository": "https://github.com/nextpad-plus-plus-plugins/Finder.linux/releases/download/v1.4.0/Finderv1.4.0-linux-x86.zip",
+      "description": "A folder tree + file list sidebar over the real filesystem — the counterpart of the classic Windows Explorer plugin.\n\nFeatures:\n- Folder tree and file list side by side, with root picker (Home, Computer, mounted volumes, favorites, any folder)\n- Open files in Nextpad++ with a double-click; locate the current file in the tree\n- File-manager actions: show in file manager, open in terminal, new file/folder, rename, duplicate, move to trash (with confirmation), copy path/name\n- Live filter box, show/hide hidden files, favorites, per-session root memory\n- English and German UI (host language applied at launch)\n\nBuilds for arm64 and x86_64.\n\nBuilt from reviewed source by the Nextpad++ team.\nLinux port by Andrew Letov of the macOS Finder plugin.\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/Finder.macos",
+      "author": "Maik Wendelken",
+      "homepage": "https://github.com/nextpad-plus-plus-plugins/Finder.linux",
+      "so-id": "8aef5c18eb9b544474a52a55dadb63199654ea2199130bda2d331ce63c75c69c",
+      "so-built": "2026-10-02",
+      "npp-min-version": "1.1.0"
+    },
+    {
       "folder-name": "FoldingLineHider",
       "display-name": "Folding Line Hider",
       "version": "1.0.3",
