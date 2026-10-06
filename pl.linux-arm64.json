@@ -225,14 +225,14 @@
     {
       "folder-name": "NppFTP",
       "display-name": "NppFTP",
-      "version": "1.0.0",
-      "id": "ba0bf785c6d5cdb35e336a21420588699ed985cb95721c8c246a78bc9e62b843",
-      "repository": "https://github.com/nextpad-plus-plus-plugins/NppFTP.linux/releases/download/v1.0.0/NppFTPv1.0.0-linux-arm64.zip",
+      "version": "1.0.1",
+      "id": "a20b91a2bd4d4afc42b045cc5191a7acfc2b20473e96f1a14b49a7247b27b5d6",
+      "repository": "https://github.com/nextpad-plus-plus-plugins/NppFTP.linux/releases/download/v1.0.1/NppFTPv1.0.1-linux-arm64.zip",
       "description": "FTP, FTPS, FTPES and SFTP client for Nextpad++.\n\nFeatures:\n- Dockable panel with connection profiles, a remote file tree, and a transfer queue\n- Download, upload, rename, delete, set permissions, create files/directories\n- Download && open: fetch a remote file and open it in the editor\n- Edit on server: saving a file you opened from the server auto-uploads it back\n- Download a whole folder recursively to a chosen local folder\n- Copy / Cut / Paste files and folders on the server\n- Separate \"NppFTP - Output\" log panel\n\nBuilds for arm64 and x86_64.\n\nLinux port of Harry's NppFTP plugin for Notepad++.\nPort Author: Andrew Letov\nHomepage: https://github.com/nextpad-plus-plus-plugins/NppFTP.linux",
       "author": "Harry",
       "homepage": "https://github.com/nextpad-plus-plus-plugins/NppFTP.linux",
-      "so-id": "33aa24a643978488c2f5fbde06f220ca3b4d550356ee82b9a71ecb4f6ed2562b",
-      "so-built": "2026-08-10",
+      "so-id": "041e694901b5ad266c9ab2bdc8096fea9bd591ccba28b22bd3b76ec080674fd1",
+      "so-built": "2026-10-06",
       "npp-min-version": "1.1.0"
     },
     {
