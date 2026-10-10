@@ -806,6 +806,19 @@
             "dylib-id": "cb129741f662d6097a45ca166e1f6371c200f74a94bab753b8a24c5db2c08705",
             "dylib-built": "2026-10-02",
             "npp-min-version": "1.1.0"
+        },
+        {
+            "folder-name": "ADIFLint",
+            "display-name": "ADIF Lint",
+            "version": "1.0.0",
+            "id": "0f8b7e55a7dd607ed7562603caf1107b4086e5193c890202af5171db57abb897",
+            "repository": "https://github.com/ssamjung2/Nextpad_plus_plus_ADIFLint/releases/download/v1.0.0/ADIFLintv1.0.0.zip",
+            "description": "Checks amateur-radio logs in ADIF 3.1.7 ADI format (.adi) as you type, repairs them, and adds logging and log tools for hams.\n\nFeatures:\n- Problems marked as you type (error, warning, note; hover to read), every rule verified against ADIF 3.1.7; Check Log lists them all with their repairs; Fix Lengths, syntax colouring, Reformat, autocomplete and a docked Record Panel\n- New QSO window: station profiles, UTC time, duplicate warnings, callsign lookup (offline country data, QRZ.com or HamQTH), contests and Field Day\n- Spots from POTA, WWFF and dozens more programs (via Spothole); Start Activation for POTA, WWFF and SOTA, with the Activation Tracker and log export\n- Monitor: QSOs logged by WSJT-X, JS8Call, N1MM Logger+, GridTracker and other programs are added as they happen\n- Log Table that edits like a spreadsheet, Sort and Organize, Compare and Merge Logs, Log Summary, Worked Before, Bulk Edit, Time Shift, Remove Duplicates, CSV, Cabrillo and QSL labels\n- Offline map of worked grids, DXCC and parks\n- QSL Sync: import QSOs and confirmations from LoTW, QRZ.com Logbook and eQSL; upload to QRZ.com Logbook, LoTW (TQSL), Club Log and eQSL, nothing sent until you press Upload\n- Every change is one undo step; accounts are kept only in the macOS Keychain\n\nUniversal binary (Apple Silicon + Intel), macOS 11+.\n\nmacOS Homepage: https://github.com/ssamjung2/Nextpad_plus_plus_ADIFLint",
+            "author": "Andrew Blessing (KW9D)",
+            "homepage": "https://github.com/ssamjung2/Nextpad_plus_plus_ADIFLint",
+            "dylib-id": "e27d4822b60d235b40585de6235baa75b5f8bb22a9b76861af39db9fedb48ef7",
+            "dylib-built": "2026-10-10",
+            "npp-min-version": "1.1.2"
         }
     ]
 }
