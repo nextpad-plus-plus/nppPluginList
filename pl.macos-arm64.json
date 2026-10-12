@@ -2,6 +2,19 @@
     "version": "0.1.0",
     "npp-plugins": [
         {
+            "folder-name": "WritingAssistant",
+            "display-name": "Writing Assistant",
+            "version": "0.1.0",
+            "id": "3a6e746242e58d7d587954d2880a4781edaa185746a1b481c031ffb06e22a2a5",
+            "repository": "https://github.com/shubhamki/AICompletionPluginNextpad/releases/download/v0.1.0/WritingAssistant.zip",
+            "description": "Preview: local-model code completion with Tab acceptance, selected-code improvement/fixes, rewriting and grammar assistance. Requires a separately installed local Ollama or LM Studio server and a coding/chat model. Automatic suggestions are opt-in; setup discovers available models and tests the connection. macOS 12 or later; tested with Nextpad++ 1.1.2 on Apple Silicon. Universal dylib is ad-hoc signed, not notarized. Intel execution, live LM Studio, full IME/split-view checks and the latest model-picker live test remain pending. See release notes before installation.",
+            "author": "shubhamki",
+            "homepage": "https://github.com/shubhamki/AICompletionPluginNextpad",
+            "dylib-id": "3af97b460ddcec9d7cf19c3474771e5f241777c7ddc76f30e568752de8f132c2",
+            "dylib-built": "2026-10-12",
+            "npp-min-version": "1.1.2"
+        },
+        {
             "folder-name": "SemanticSearch",
             "display-name": "Semantic Search",
             "version": "1.0.0",
