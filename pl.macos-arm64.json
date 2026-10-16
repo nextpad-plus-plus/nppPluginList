@@ -2,6 +2,19 @@
     "version": "0.1.0",
     "npp-plugins": [
         {
+            "folder-name": "JsonTools",
+            "display-name": "JsonTools",
+            "version": "1.0.0",
+            "id": "d69c4fe974ab0d50bacfde7d14da723139b1e913617f7160af21672da36be6cc",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/JsonTools.macos/releases/download/v1.0.0/JsonToolsv1.0.0.zip",
+            "description": "Miscellaneous tools for working with JSON (and JSON Lines, INI files, and anything a regex can carve into JSON) — a port of molsonkiko's JsonTools from Windows Notepad++.\n\nFeatures:\n- JSON/JSON5/JSONC parsing with a linter: error list in a docked panel, document type in the status bar\n- Tree viewer panel with path to clipboard (JavaScript / Python / RemesPath styles), select-in-document, and sorting — reopens at relaunch if left open\n- RemesPath, a full JSON query-and-edit language: filtering, projections, regex and CSV functions, mutations, multi-statement queries with variables, find/replace form\n- Pretty-print and compress (Google / Whitesmith / PPrint styles), optional comment retention, JSON Lines ↔ array, JSON to YAML, JSON to CSV (4 strategies)\n- JSON Schema: validate against a schema file, auto-validate files matching filename patterns, generate a schema from JSON, generate random JSON from a schema\n- Get JSON from local files and web APIs into one grepped document with its own tree\n- Edit remembered multi-selections as separate JSON documents\n\nThe engine is validated against the upstream plugin's test suites (2,249 checks) on every build.\n\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/JsonTools.macos",
+            "author": "Mark Olson (molsonkiko), macOS port by Andrey Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/JsonTools.macos",
+            "dylib-id": "b740e9975fee900b558897eeb303b0ea65c8465a078563018485c3bb3d3b1f88",
+            "dylib-built": "2026-10-16",
+            "npp-min-version": "1.1.1"
+        },
+        {
             "folder-name": "SemanticSearch",
             "display-name": "Semantic Search",
             "version": "1.0.0",
