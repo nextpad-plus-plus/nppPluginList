@@ -2,6 +2,32 @@
     "version": "0.1.0",
     "npp-plugins": [
         {
+            "folder-name": "ADIFLint",
+            "display-name": "ADIF Lint",
+            "version": "1.2.0",
+            "id": "23b05979c4a13614d9fe9b7623d2cf2ff52855fd8186538d52806cf0b427778f",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/ADIFLint.macos/releases/download/v1.2.0/ADIFLintv1.2.0.zip",
+            "description": "Lint, edit, and enrich amateur-radio ADIF logs.\n\nFeatures:\n- Validates logs against the full ADIF 3.1.7 specification, with fixes for data-length errors\n- Log table, bulk edit, compare, and New QSO entry with live callbook lookup (QRZ.com, HamQTH)\n- Enrich records from callbooks; import from QRZ Logbook, LoTW, and eQSL; upload to QRZ, ClubLog, eQSL, and LoTW (TQSL signing)\n- World map with DXCC/zone/state/county overlays, POTA parks, and activation tracking\n- Live QSO capture from WSJT-X, N1MM and friends (local UDP, loopback by default)\n- Spots windows for POTA, WWFF, and Spothole\n\nService credentials are stored only in your macOS Keychain and sent only to the service you chose, over HTTPS.\n\nBy Andrew Blessing. macOS Homepage: https://github.com/nextpad-plus-plus-plugins/ADIFLint.macos",
+            "author": "Andrew Blessing (ssamjung2)",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/ADIFLint.macos",
+            "dylib-id": "6f5a9d3bf34baee7fb0cff12838781e6daf2981cc6520260f93737fc719872b6",
+            "dylib-built": "2026-10-19",
+            "npp-min-version": "1.1.0"
+        },
+        {
+            "folder-name": "WritingAssistant",
+            "display-name": "Writing Assistant",
+            "version": "0.1.0",
+            "id": "ff20a028084d21dc7700b271d5d39ef4ed0484ac5321a4e24deaa7f7fbbf0abc",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/WritingAssistant.macos/releases/download/v0.1.0/WritingAssistantv0.1.0.zip",
+            "description": "Writing and code assistant backed by a local LLM server (Ollama or LM Studio) — your text never leaves your Mac.\n\nFeatures:\n- Continue writing, Rewrite selection, Fix grammar, Improve/Fix code selection — all preview-first with one-click Accept (a single undoable edit)\n- Optional inline suggestions as you type (off by default; Tab to accept, Esc to dismiss), with a code-completion mode using native FIM on Ollama\n- Strictly loopback-only: endpoints are validated, redirects and proxies are refused, and nothing is sent until you act or explicitly enable auto-suggest\n\nRequires a local model server: install Ollama (ollama pull qwen2.5-coder:0.5b) or load a chat model in LM Studio, then use Plugins > Writing Assistant > Local model settings.\n\nBy shubhamki. macOS Homepage: https://github.com/nextpad-plus-plus-plugins/WritingAssistant.macos",
+            "author": "shubhamki",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/WritingAssistant.macos",
+            "dylib-id": "d60515dcdf55dcf930ae6cd438ee76527eaf82b6c1b7f525c05fa306c67bee54",
+            "dylib-built": "2026-10-19",
+            "npp-min-version": "1.1.0"
+        },
+        {
             "folder-name": "JsonTools",
             "display-name": "JsonTools",
             "version": "1.0.0",
