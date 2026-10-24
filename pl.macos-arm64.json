@@ -851,13 +851,13 @@
         {
             "folder-name": "NppVim",
             "display-name": "NppVim",
-            "version": "1.13.3",
-            "id": "cbb23bd4045defcc9bd0d614eda6084e4441e6ca1b3fb98071efd8530772ae8f",
-            "repository": "https://github.com/nextpad-plus-plus-plugins/NppVim.macos/releases/download/v1.13.3/NppVimv1.13.3.zip",
+            "version": "0.9.0",
+            "id": "4015fa7b15b7e5b927ae586c8336064fc4c491646ab168e351310c6aabbcb44d",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/NppVim.macos/releases/download/v0.9.0/NppVimv0.9.0.zip",
             "description": "Vim-style modal editing inside Nextpad++: Normal / Visual / Visual-Line / Command modes, motions and operators, text objects, registers, marks, macros, searches and a good chunk of \":\" commands including :s substitution with live match/replacement preview.\n\nEsc (or the configured key) leaves Insert mode; the current mode shows in the status bar.\n\nUniversal binary (Apple Silicon + Intel).\n\nOriginal Windows plugin by Himanshu (h-jangra), MIT.\n\nmacOS Port Author: Andrew Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/NppVim.macos",
             "author": "Himanshu (h-jangra); macOS port by Andrew Letov",
             "homepage": "https://github.com/nextpad-plus-plus-plugins/NppVim.macos",
-            "dylib-id": "d664eb96fdd1f1d74111c65926fac171331c1daf31e92a0599723c69c8444b86",
+            "dylib-id": "62ea7f0136f9e3b3cb5df9fe09ac3a9f35c76afe17303ef84a1227aba74d65b2",
             "dylib-built": "2026-10-23",
             "npp-min-version": "1.0.8"
         }
