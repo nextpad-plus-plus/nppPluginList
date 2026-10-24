@@ -682,14 +682,14 @@
         {
             "folder-name": "Linter",
             "display-name": "Linter",
-            "version": "1.0.0",
-            "id": "8cd12b0f465530277eac60a1f71b3dddb69eb2626170a2654e492e4cca56c189",
-            "repository": "https://github.com/nextpad-plus-plus-plugins/Linter.macos/releases/download/v1.0.0/Linterv1.0.0.zip",
+            "version": "1.0.1",
+            "id": "b559c0a56d37ef4bd68f4b92072d8b94ac55c2ebc34e0f458923c9b46bc102bd",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/Linter.macos/releases/download/v1.0.1/Linterv1.0.1.zip",
             "description": "Runs external command-line linters on the current document as you type, parses their checkstyle XML output, and underlines the problems. A summary shows in the status bar; hover a mark for its message.\n\nLinter drives tools you install yourself (make sure they are on your PATH):\n- eslint / jshint (JavaScript), csslint (CSS), phpcs (PHP), etc.\n- e.g. npm install -g eslint  ->  eslint --format checkstyle\n\nMap a file extension to a command in Plugins > Linter > Settings (the command must output checkstyle-format XML). See About for details.\n\nUniversal binary (Apple Silicon + Intel).\n\nOriginal Windows plugin by Vladimir Soshkin (MIT).\n\nmacOS Port Author: Andrew Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/Linter.macos",
             "author": "Vladimir Soshkin; macOS port by Andrew Letov",
             "homepage": "https://github.com/nextpad-plus-plus-plugins/Linter.macos",
-            "dylib-id": "65ef0acfabf473df260919cce04a27ea96525e0085baba54277837976eddf0ab",
-            "dylib-built": "2026-07-01",
+            "dylib-id": "f19d2679143a58f0521aa1f161f631f74b8ac010c72be0d50b466d0e8b5462c9",
+            "dylib-built": "2026-10-23",
             "npp-min-version": "1.0.8"
         },
         {
@@ -773,14 +773,14 @@
         {
             "folder-name": "SmartHighlightNPP",
             "display-name": "SmartHighlight (Cisco Collab)",
-            "version": "1.0.7",
-            "id": "ad6b0606fc62a25bc8c374ae8f664140c64a97dfd71310294d83bde440cd0d03",
-            "repository": "https://github.com/nextpad-plus-plus-plugins/SmartHighlightNPP.macos/releases/download/v1.0.7/SmartHighlightNPPv1.0.7.zip",
+            "version": "1.0.8",
+            "id": "c62b0cefaf89346ecaeb3d9eafa84d0055f4dfdfcf4ed0c03455d1a97bc6f6ee",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/SmartHighlightNPP.macos/releases/download/v1.0.8/SmartHighlightNPPv1.0.8.zip",
             "description": "Dockable highlight panel for Nextpad++, with Cisco Collaboration log tooling.\n\nFeatures:\n- Multi-style highlighter: 10 colour styles, persisted across sessions, usable on any file\n- Cisco log decoding as the cursor moves: Q.850 cause codes, DTMF blocks, X.509 certificates and SAML responses\n- Nested archive extractor: recursively unpacks zip / tar / tar.gz / tgz / gz (7z and rar need Homebrew 7z or unar)\n- CiscoCollab user-defined language for Cisco log syntax colouring\n- Jump between highlights; import and export highlight sets\n\nUniversal binary (Apple Silicon + Intel). Archives are moved to the Trash after extraction, not deleted.\n\nAuthor: Anthony Nunez (https://github.com/tonynupe)\nOriginal: https://github.com/tonynupe/SmartHighlightNPP\nmacOS Homepage: https://github.com/tonynupe/SmartHighlightNPP.macos",
             "author": "Anthony Nunez",
             "homepage": "https://github.com/tonynupe/SmartHighlightNPP.macos",
-            "dylib-id": "7c2dee8a3fccbb9d63a4ba04b79bb4c7f08c847cc4eadd562c0f9064ad9f9dc9",
-            "dylib-built": "2026-10-15",
+            "dylib-id": "13af4d700c733c9e734609c3c0bc41ea24c4c1ce77c251fdbd162b5a2c6a4b62",
+            "dylib-built": "2026-10-23",
             "npp-min-version": "1.0.8"
         },
         {
@@ -812,14 +812,14 @@
         {
             "folder-name": "CSVLint",
             "display-name": "CSV Lint",
-            "version": "1.0.2",
-            "id": "9d5652ecf4c9f4781b607e31dd2859491440595112064c920cb942ecb459b23a",
-            "repository": "https://github.com/nextpad-plus-plus-plugins/CSVLint.macos/releases/download/v1.0.2/CSVLintv1.0.2.zip",
+            "version": "1.0.3",
+            "id": "6c865de23cbd450f5e7d6b01532bb62d56983fb062a3954b57f35dfe308c648f",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/CSVLint.macos/releases/download/v1.0.3/CSVLintv1.0.3.zip",
             "description": "Detect and fix problems in delimited data (CSV, TSV, fixed-width) right inside Nextpad++.\n\nFeatures:\n- Analyze a file to auto-detect its separator, quote style and column schema\n- Validate rows against the detected or a saved schema, flagging problems inline\n- Convert between delimiters and reformat delimited data\n- Convert data to SQL, XML, JSON or a styled HTML table\n- Generate boilerplate code from the schema (SQL and more)\n- Per-file settings persisted to \"CSV Lint.ini\" (Windows-parity)\n\nUniversal binary (Apple Silicon + Intel), macOS 12+.\n\nmacOS Port Author: Andrew Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/CSVLint.macos",
             "author": "Bas de Reuver",
             "homepage": "https://github.com/BdR76/CSVLint",
-            "dylib-id": "e55d79d308ba50b15951b5e22951e3d79e2b226dff51b5324efb77c1db1041c5",
-            "dylib-built": "2026-10-15",
+            "dylib-id": "1d7a79f0ecd7223b8e89452596dd11f45d51b79764923384c9cc5d8c73cf39bc",
+            "dylib-built": "2026-10-23",
             "npp-min-version": "1.1.0"
         },
         {
@@ -847,6 +847,19 @@
             "dylib-id": "cb129741f662d6097a45ca166e1f6371c200f74a94bab753b8a24c5db2c08705",
             "dylib-built": "2026-10-02",
             "npp-min-version": "1.1.0"
+        },
+        {
+            "folder-name": "NppVim",
+            "display-name": "NppVim",
+            "version": "1.13.3",
+            "id": "cbb23bd4045defcc9bd0d614eda6084e4441e6ca1b3fb98071efd8530772ae8f",
+            "repository": "https://github.com/nextpad-plus-plus-plugins/NppVim.macos/releases/download/v1.13.3/NppVimv1.13.3.zip",
+            "description": "Vim-style modal editing inside Nextpad++: Normal / Visual / Visual-Line / Command modes, motions and operators, text objects, registers, marks, macros, searches and a good chunk of \":\" commands including :s substitution with live match/replacement preview.\n\nEsc (or the configured key) leaves Insert mode; the current mode shows in the status bar.\n\nUniversal binary (Apple Silicon + Intel).\n\nOriginal Windows plugin by Himanshu (h-jangra), MIT.\n\nmacOS Port Author: Andrew Letov\nmacOS Homepage: https://github.com/nextpad-plus-plus-plugins/NppVim.macos",
+            "author": "Himanshu (h-jangra); macOS port by Andrew Letov",
+            "homepage": "https://github.com/nextpad-plus-plus-plugins/NppVim.macos",
+            "dylib-id": "d664eb96fdd1f1d74111c65926fac171331c1daf31e92a0599723c69c8444b86",
+            "dylib-built": "2026-10-23",
+            "npp-min-version": "1.0.8"
         }
     ]
 }
