@@ -13,6 +13,7 @@
             "homepage": "https://github.com/ssamjung2/Nextpad_plus_plus_ADIFLint",
             "dylib-id": "6f5a9d3bf34baee7fb0cff12838781e6daf2981cc6520260f93737fc719872b6",
             "dylib-built": "2026-10-19",
+            "minos": "11.0",
             "npp-min-version": "1.1.0"
         },
         {
@@ -27,6 +28,7 @@
             "homepage": "https://github.com/shubhamki/AICompletionPluginNextpad",
             "dylib-id": "d60515dcdf55dcf930ae6cd438ee76527eaf82b6c1b7f525c05fa306c67bee54",
             "dylib-built": "2026-10-19",
+            "minos": "12.0",
             "npp-min-version": "1.1.0"
         },
         {
@@ -40,6 +42,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/JsonTools.macos",
             "dylib-id": "b740e9975fee900b558897eeb303b0ea65c8465a078563018485c3bb3d3b1f88",
             "dylib-built": "2026-10-16",
+            "minos": "12.0",
             "npp-min-version": "1.1.1"
         },
         {
@@ -53,6 +56,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/SemanticSearch.macos",
             "dylib-id": "9187280670d84330a4b8a7e8171ded12a675e0948a6fd7808d9119fe99840675",
             "dylib-built": "2026-09-24",
+            "minos": "12.0",
             "npp-min-version": "1.1.0"
         },
         {
@@ -66,6 +70,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/NextZip.macos",
             "dylib-id": "37def042552814ffe1e578696344eb17d3899b23689af3144ccdc186c057d6e9",
             "dylib-built": "2026-10-15",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -79,6 +84,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/NppFTP.macos",
             "dylib-id": "6b6410a380151f8b390f9a160201abd7cd5900316e983d4b80aa9d6714570942",
             "dylib-built": "2026-10-15",
+            "minos": "12.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -92,6 +98,7 @@
             "homepage": "https://github.com/SinghRajenM/nppURLPlugin",
             "dylib-id": "0bc615d966c86643b16b05c2ece5b0eb7666f0bb37c342cddef2158862c8038c",
             "dylib-built": "2026-07-02",
+            "minos": "12.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -105,6 +112,7 @@
             "homepage": "https://github.com/pnedev/comparePlus",
             "dylib-id": "d56314832978497e64296298999ce0b32a9fd8464649b7b7b77a9afe012217a2",
             "dylib-built": "2026-08-05",
+            "minos": "12.0",
             "npp-min-version": "1.0.7"
         },
         {
@@ -118,6 +126,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/NppDoxy.macos",
             "dylib-id": "596992c5e47e159d9532545753af5552172e7518ede5b3327ff21b26138dce2f",
             "dylib-built": "2026-07-02",
+            "minos": "12.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -131,6 +140,7 @@
             "homepage": "https://github.com/ffes/indentbyfold",
             "dylib-id": "19395c1895b48164b5fe4eea265b576cf3356a2a04f330742e1ce2611991afed",
             "dylib-built": "2026-07-02",
+            "minos": "12.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -144,6 +154,7 @@
             "homepage": "https://github.com/query-kuma/qkNppReverseLines",
             "dylib-id": "ccb16fdc1b2360262745911f1ac754a321eb19a896c4df69c4e2b0a50f96a554",
             "dylib-built": "2026-07-02",
+            "minos": "12.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -157,6 +168,7 @@
             "homepage": "https://github.com/AhDeeAy/FoldingLineHider",
             "dylib-id": "e92f093c69acdfca56fa8725b659e5174a334104af72b7c7f04498f72648faf3",
             "dylib-built": "2026-07-02",
+            "minos": "12.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -170,6 +182,7 @@
             "homepage": "https://github.com/nicedreams/pork2sausage",
             "dylib-id": "82ce2c8eb2ee40f235cb0b22b2300f2944e09532f1359397b6dc8e970d22f840",
             "dylib-built": "2026-07-02",
+            "minos": "12.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -183,6 +196,7 @@
             "homepage": "https://github.com/jejemorg/NppPluginOpenHost",
             "dylib-id": "3a3a3d28d88e48e7bbb43a29f05d4c615026ed9c96a8293f258768f5042b8b93",
             "dylib-built": "2026-05-11",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -196,6 +210,7 @@
             "homepage": "https://github.com/KubaDee/SelectToClipboard",
             "dylib-id": "8ed2f1004a8d8de89db9ce2b9e897cd71f11eb84d8e23fb5d7a4983a5d490c1b",
             "dylib-built": "2026-07-02",
+            "minos": "12.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -209,6 +224,7 @@
             "homepage": "https://github.com/chcg/NPP_ExportPlugin",
             "dylib-id": "510eb47972473fd031614cf789ea399d743c6a7a321eaad35e93d1ccf9d1e7fc",
             "dylib-built": "2026-05-11",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -222,6 +238,7 @@
             "homepage": "https://github.com/heldersepu/nppfavorites",
             "dylib-id": "1b27a31040684a167d16ce2cd495f29e988a2cc81c51080fc43d1ebfc8d82636",
             "dylib-built": "2026-06-16",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -235,6 +252,7 @@
             "homepage": "https://github.com/Chocobo1/nppAutoDetectIndent",
             "dylib-id": "105c73fda2d1c9642ea2730601f64363cabd96d6a8f4fd218354d9e97d6e5e8a",
             "dylib-built": "2026-06-16",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -248,6 +266,7 @@
             "homepage": "https://github.com/ffes/selectquotedtext",
             "dylib-id": "c3aa485b0531397ded0a6617f1192a061e597a1d35af9824c421200a2a7bf720",
             "dylib-built": "2026-05-11",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -261,6 +280,7 @@
             "homepage": "https://github.com/Zukaritasu/notepadpp_rpc",
             "dylib-id": "d40930c6c50e85e29ff7bd9b245d9e57ef2e6a2ebd0e1661ddf3bcb7423f705e",
             "dylib-built": "2026-06-16",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -274,6 +294,7 @@
             "homepage": "https://sourceforge.net/projects/quicktext/",
             "dylib-id": "1d65dc499dada26e70361523f56c3e97a3d1f3a29bb1857813fab9b0ae28f344",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -287,6 +308,7 @@
             "homepage": "https://github.com/nea/NppMarkdownPanel",
             "dylib-id": "a022b097d8f8f609c27b30b17a3557a2cd5a1ebc5028b14bdea56f4ac83560af",
             "dylib-built": "2026-10-15",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -300,6 +322,7 @@
             "homepage": "https://github.com/dail8859/ElasticTabstops",
             "dylib-id": "81148f68b8d9b239f2a24db3ca8d3d7d1e3df21899490f02a4432c1066831f2c",
             "dylib-built": "2026-07-02",
+            "minos": "12.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -313,6 +336,7 @@
             "homepage": "https://github.com/chcg/XmlNavigator",
             "dylib-id": "6a9a295836148c11817069c4a83053f47443b9d53dbed56d5997a358cd40e04a",
             "dylib-built": "2026-10-15",
+            "minos": "12.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -326,6 +350,7 @@
             "homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
             "dylib-id": "8a30267eda98fd4a0ba18e644c34eb077d834d86f32d0cbf7336075f8e143071",
             "dylib-built": "2026-10-15",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -339,6 +364,7 @@
             "homepage": "https://github.com/Krazal/nppopenai",
             "dylib-id": "2fa38ee4dca69d8b78fa3dfcbd93902e6d2c851f9c28455f6a9fbef325732829",
             "dylib-built": "2026-05-11",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -352,6 +378,7 @@
             "homepage": "https://github.com/notepad-plus-plus/NppAIAssistant",
             "dylib-id": "3b02986fc0547cb050c2cff426775283172fdde93ae19ae85159f1b313a96e89",
             "dylib-built": "2026-10-15",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -365,6 +392,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/NppBeads.macos",
             "dylib-id": "9a129827efa30ba940c76120bc49906cacac034c7f4ca586ae3570eb22b22462",
             "dylib-built": "2026-10-23",
+            "minos": "12.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -378,6 +406,7 @@
             "homepage": "https://github.com/dhadner/NPP_HexEdit",
             "dylib-id": "fc9562b4b9b5186d6dcf8273538ab0912fbb6e6f0753221e0c408fccdbabf1dd",
             "dylib-built": "2026-05-15",
+            "minos": "15.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -391,6 +420,7 @@
             "homepage": "https://github.com/dail8859/NPPTextFX",
             "dylib-id": "4c08b4922a1772cf1a2e45acb534a41a755005a741191ec9b685ef4001604dde",
             "dylib-built": "2026-06-16",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -404,6 +434,7 @@
             "homepage": "https://github.com/morbac/xmltools",
             "dylib-id": "17d3bd948ad8a3de52ff7f8ee35b4baf929e9b7c7b0ee98d0b586dc4a2c82a63",
             "dylib-built": "2026-07-02",
+            "minos": "12.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -417,6 +448,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/RandomValuesNppPlugin.macos",
             "dylib-id": "3ea809b41dd194dece6fc430562cdb7edfdafbe5eaa67882d3e893504bea5b82",
             "dylib-built": "2026-06-16",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -430,6 +462,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/NppZapGremlins.macos",
             "dylib-id": "ba513214bc7aaabebb32679e3b8d681380bfe357fa27f676f3867ee69074ed33",
             "dylib-built": "2026-06-16",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -443,6 +476,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/DSpellCheck.macos",
             "dylib-id": "468e356b0a2ac23f97331ee706262cf8f8b3dfb4f1e1769489b45e7f2815e299",
             "dylib-built": "2026-06-16",
+            "minos": "11.0",
             "npp-min-version": "1.0.6"
         },
         {
@@ -456,6 +490,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/SessionMgr.macos",
             "dylib-id": "8dc3c11e22dfc44acb3b03cafaffcfdb00f99daba172a2c550eaafe66fa87426",
             "dylib-built": "2026-06-18",
+            "minos": "11.0",
             "npp-min-version": "1.0.7"
         },
         {
@@ -469,6 +504,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/AnalysePlugin.macos",
             "dylib-id": "cecaf21de0ec311534dd4d5e8186b3b487532b06874897d013980cec47250b5e",
             "dylib-built": "2026-10-15",
+            "minos": "11.0",
             "npp-min-version": "1.0.7"
         },
         {
@@ -482,6 +518,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/PoorMansTSqlFormatter.macos",
             "dylib-id": "b6ec5a0d32da8d9e1f76345519b68e9d5be92d645a8b245da4afdfdbecde48c2",
             "dylib-built": "2026-06-16",
+            "minos": "11.0",
             "npp-min-version": "1.0.7"
         },
         {
@@ -495,6 +532,7 @@
             "homepage": "https://github.com/sunjw/jstoolnpp",
             "dylib-id": "3717de4b73f8cd2bab9867b92fd460108a2c17370f7a46820577fc13ceb14eb3",
             "dylib-built": "2026-06-05",
+            "minos": "11.0",
             "npp-min-version": "1.0.7"
         },
         {
@@ -508,6 +546,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/NppChineseConverter.macos",
             "dylib-id": "9e524bcff3fb669f3976da62f402286af40c8f2ab781af020352e89750c47a19",
             "dylib-built": "2026-06-21",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -521,6 +560,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/BracketsCheck.macos",
             "dylib-id": "2426ed9993054ecbc2f05ee2ddc7f37d5b15d332a1f86fbab727c9d2d6323c4b",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -534,6 +574,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/HTMLTag.macos",
             "dylib-id": "58e39f950dcb3e1d8a871aeea9e2e7db1ed3a1303a91a3b620262a7843772024",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -547,6 +588,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/SurroundSelection.macos",
             "dylib-id": "e145b5c6e76ef5e3013fe07f325b3b771ff8c674573872d9c4946a625e68022c",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -560,6 +602,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/selectNLaunch.macos",
             "dylib-id": "9bff9686a63fc9fe7d79e3a8b408d80c9ee3ba0636d8aa9499e2a576005be4f6",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -573,6 +616,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/SecurePad.macos",
             "dylib-id": "4058a8bf1598f13bd15da0d0a5510cc8371d13ae8c4056e4b26f86403b5fa2d6",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -586,6 +630,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/pycalc.macos",
             "dylib-id": "b466ebe2193ec413d42d125263264bae98d51f78c4ac4c55789e3618d188eb34",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -599,6 +644,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/NppCrossCheck.macos",
             "dylib-id": "d924b2e5acd047916b2b2d5db8ad82219f4e78f632522e16f0827579d8d40df3",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -612,6 +658,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/RestApiToText.macos",
             "dylib-id": "5b323aa1f3c8abe3bf692a712d6a3b4136ce63109284b25bf41f898c372cd962",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -625,6 +672,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/MusicPlayer.macos",
             "dylib-id": "78a8eeb725c821d2fff73d6d844a6987de74db838ce7daccc3880117a9ba27d3",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -638,6 +686,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/SpeechPlugin.macos",
             "dylib-id": "7537d7296b6a95aedb4bb97b7c5306906fcc1adc10c09d0affe8510aaa4e8754",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -651,6 +700,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/CommentToggler.macos",
             "dylib-id": "ca5a065878fb68fc2945ca11bf1556638d1a24b2a9c2492b0463d53c13cd9071",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -664,6 +714,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/NppStripIpAndHost.macos",
             "dylib-id": "e3f607a17e5366645bd2be9870b75d7981937d62a065203972f89c4587d8caac",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -677,6 +728,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/EmojiDescription.macos",
             "dylib-id": "cf97d35249abce0b262220f507a5877e1f5a42d60272788124b3b9444556566e",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -690,6 +742,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/Linter.macos",
             "dylib-id": "f19d2679143a58f0521aa1f161f631f74b8ac010c72be0d50b466d0e8b5462c9",
             "dylib-built": "2026-10-23",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -703,6 +756,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/WakaTime.macos",
             "dylib-id": "79dca41f08a777882741e00b6044ba8168662a950bf5088b59c05e4b2dc85690",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -716,6 +770,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/CodeAlignmentNpp.macos",
             "dylib-id": "70faf4226942fd6982dcf6bd785f142e72478bf3d5f37334cc2ae7010e7522b0",
             "dylib-built": "2026-07-01",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -729,6 +784,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/ColumnsPlusPlus.macos",
             "dylib-id": "9679b3603fbc4777c8f822816e32ae082915838750404fd0901d6b4ef97124be",
             "dylib-built": "2026-07-02",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -742,6 +798,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/CustomLineNumbers.macos",
             "dylib-id": "f86941e19a2c9fbc8e0f2c1bd7987251c2430e6fc6343920e6f9b4ab9c12dff0",
             "dylib-built": "2026-07-02",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -755,6 +812,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/Compose.macos",
             "dylib-id": "5d63dc70f135f3ca5da971adb9928b83d3bd0cd5ce3976d8a0792175d94c27f8",
             "dylib-built": "2026-07-02",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -768,6 +826,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/CollectionInterface.macos",
             "dylib-id": "ac0acfc5de3ea7b8c39bc09b1875c69d8d01768884237b05565cde51cdf98739",
             "dylib-built": "2026-07-03",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -781,6 +840,7 @@
             "homepage": "https://github.com/tonynupe/SmartHighlightNPP.macos",
             "dylib-id": "13af4d700c733c9e734609c3c0bc41ea24c4c1ce77c251fdbd162b5a2c6a4b62",
             "dylib-built": "2026-10-23",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         },
         {
@@ -794,6 +854,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/Parakeet.macos",
             "dylib-id": "4aca28c3b8eea80ffc2f4e26cd1e8e62a4c86f14a9f2619f15fdded53af951fd",
             "dylib-built": "2026-07-21",
+            "minos": "12.0",
             "npp-min-version": "1.1.0"
         },
         {
@@ -807,6 +868,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/MCPServer.macos",
             "dylib-id": "369f9f11b465f1eac1f38addc3b3bb670e91c0dce6b248cf0058d9dc7b9dbb6f",
             "dylib-built": "2026-08-03",
+            "minos": "12.0",
             "npp-min-version": "1.1.0"
         },
         {
@@ -820,6 +882,7 @@
             "homepage": "https://github.com/BdR76/CSVLint",
             "dylib-id": "1d7a79f0ecd7223b8e89452596dd11f45d51b79764923384c9cc5d8c73cf39bc",
             "dylib-built": "2026-10-23",
+            "minos": "12.0",
             "npp-min-version": "1.1.0"
         },
         {
@@ -833,6 +896,7 @@
             "homepage": "https://github.com/dail8859/LuaScript",
             "dylib-id": "1efe73f94fde456c8b105caa85d318a71624dac2b661797c9a5b55307429aa83",
             "dylib-built": "2026-10-15",
+            "minos": "12.0",
             "npp-min-version": "1.1.0"
         },
         {
@@ -846,6 +910,7 @@
             "homepage": "https://github.com/ioso71/Finder.macos",
             "dylib-id": "cb129741f662d6097a45ca166e1f6371c200f74a94bab753b8a24c5db2c08705",
             "dylib-built": "2026-10-02",
+            "minos": "12.0",
             "npp-min-version": "1.1.0"
         },
         {
@@ -859,6 +924,7 @@
             "homepage": "https://github.com/nextpad-plus-plus-plugins/NppVim.macos",
             "dylib-id": "62ea7f0136f9e3b3cb5df9fe09ac3a9f35c76afe17303ef84a1227aba74d65b2",
             "dylib-built": "2026-10-23",
+            "minos": "11.0",
             "npp-min-version": "1.0.8"
         }
     ]
